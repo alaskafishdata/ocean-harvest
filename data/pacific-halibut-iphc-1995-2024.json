@@ -1,0 +1,37 @@
+{
+  "_schema": "alaska-pacific-halibut-iphc-v1",
+  "_provenance": {
+    "primary_source": "International Pacific Halibut Commission (IPHC) — Annual Report & Setline Survey FISS",
+    "primary_url": "https://www.iphc.int/management/annual-meeting/",
+    "secondary_sources": [
+      "NOAA Fisheries IFQ Program — Pacific Halibut (5 CFR 679)",
+      "North Pacific Fishery Management Council — Halibut Catch Sharing Plan",
+      "Alaska Halibut & Sablefish IFQ Permit Market Surveys (2000-2024)"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Pacific Halibut (Hippoglossus stenolepis) is managed by the International Pacific Halibut Commission (IPHC) under the 1979 Pacific Halibut Convention. The IPHC sets coastwide Catch Per Unit Effort (CPUE) based Fishery Independent Setline Survey (FISS) biomass indices each January at the IPHC Annual Meeting. Alaska commercial halibut IFQ permits are among the most expensive in the world — Area 3A permits (Central GOA) trade at $60-$85 per IFQ pound."
+  },
+  "iphc_regulatory_areas_alaska": [
+    {"area": "2C", "description": "Southeast Alaska (Juneau/Sitka/Ketchikan)", "2024_commercial_iphc_lbs": 7240000},
+    {"area": "3A", "description": "Central Gulf of Alaska (Homer/Seward/Kodiak)", "2024_commercial_iphc_lbs": 20110000},
+    {"area": "3B", "description": "Western Gulf of Alaska (Kodiak West/Chignik)", "2024_commercial_iphc_lbs": 6380000},
+    {"area": "4A", "description": "Eastern Aleutian Islands", "2024_commercial_iphc_lbs": 3100000},
+    {"area": "4B", "description": "Central Aleutian Islands", "2024_commercial_iphc_lbs": 1840000},
+    {"area": "4CDE", "description": "Western Aleutians & Bering Sea", "2024_commercial_iphc_lbs": 1520000}
+  ],
+  "annual_total_alaska_halibut_harvest": [
+    {"year": 1995, "commercial_harvest_lbs_m": 78.4, "iphc_coastwide_limit_lbs_m": 90.0},
+    {"year": 2000, "commercial_harvest_lbs_m": 60.2, "iphc_coastwide_limit_lbs_m": 68.8},
+    {"year": 2010, "commercial_harvest_lbs_m": 49.4, "iphc_coastwide_limit_lbs_m": 55.0},
+    {"year": 2015, "commercial_harvest_lbs_m": 30.2, "iphc_coastwide_limit_lbs_m": 34.2},
+    {"year": 2020, "commercial_harvest_lbs_m": 28.8, "iphc_coastwide_limit_lbs_m": 32.0},
+    {"year": 2024, "commercial_harvest_lbs_m": 40.2, "iphc_coastwide_limit_lbs_m": 44.1}
+  ],
+  "ifq_market_2024": {
+    "area_3A_avg_permit_value_per_lb": 72.00,
+    "area_2C_avg_permit_value_per_lb": 55.00,
+    "avg_exvessel_per_lb_2024": 8.40,
+    "notes": "Halibut IFQ is transferable and leaseable; lease rates in 3A averaged $2.80/lb in 2024"
+  }
+}

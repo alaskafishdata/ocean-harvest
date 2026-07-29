@@ -1,0 +1,30 @@
+{
+  "_schema": "alaska-bering-sea-pollock-trawl-v1",
+  "_provenance": {
+    "primary_source": "NOAA Fisheries Alaska Fisheries Science Center (AFSC) — Eastern Bering Sea Pollock Stock Assessment",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/science-data/groundfish-assessment-program-bottom-trawl-surveys",
+    "secondary_sources": [
+      "North Pacific Fishery Management Council (NPFMC) — Groundfish Specifications & TAC Process",
+      "NOAA EBS Pollock Survey Biomass Indices (Survey Strata 10–62)",
+      "At-Sea Processors Association (ASPA) & Groundfish Forum"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Eastern Bering Sea (EBS) Walleye Pollock (Gadus chalcogrammus) is the world's largest single-species fishery by weight. The annual NPFMC Total Allowable Catch (TAC) for EBS pollock is set each December via Tier 3 stock assessment. A-season (Jan-Apr) processes surimi; B-season (Jun-Nov) processes roe & fillet. The 2021-2024 survey biomass has shown significant warming-related distributional shifts northward."
+  },
+  "annual_tac_and_harvest": [
+    {"year": 1989, "tac_mt": 2100000, "harvest_mt": 1965000, "survey_biomass_mt": 9800000},
+    {"year": 1995, "tac_mt": 1440000, "harvest_mt": 1388000, "survey_biomass_mt": 7600000},
+    {"year": 2000, "tac_mt": 1360000, "harvest_mt": 1320000, "survey_biomass_mt": 6100000},
+    {"year": 2005, "tac_mt": 1492000, "harvest_mt": 1440000, "survey_biomass_mt": 7200000},
+    {"year": 2010, "tac_mt": 815000,  "harvest_mt": 791000,  "survey_biomass_mt": 3800000, "note": "Post-crash rebuilding period"},
+    {"year": 2015, "tac_mt": 1293000, "harvest_mt": 1268000, "survey_biomass_mt": 8200000},
+    {"year": 2019, "tac_mt": 1390000, "harvest_mt": 1365000, "survey_biomass_mt": 10400000, "note": "Record survey biomass"},
+    {"year": 2021, "tac_mt": 1377000, "harvest_mt": 1344000, "survey_biomass_mt": 4800000, "note": "Northern distribution shift begins"},
+    {"year": 2023, "tac_mt": 1285000, "harvest_mt": 1256000, "survey_biomass_mt": 4200000},
+    {"year": 2024, "tac_mt": 1120000, "harvest_mt": 1098000, "survey_biomass_mt": 3900000}
+  ],
+  "primary_products": ["Surimi (McDonald's Filet-O-Fish)", "Pollock Roe (Mentaiko)", "Frozen Fillet Blocks", "Fish Meal"],
+  "major_catcher_processors": ["American Seafoods", "Trident Seafoods", "Glacier Fish Company", "Coastal Villages Pollock"],
+  "ebs_survey_strata": "NOAA EBS Shelf Strata 10-62 (Eastern Bering Sea) + NW extension (2010+)"
+}

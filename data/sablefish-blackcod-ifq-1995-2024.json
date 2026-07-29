@@ -1,0 +1,37 @@
+{
+  "_schema": "alaska-sablefish-blackcod-v1",
+  "_provenance": {
+    "primary_source": "NOAA AFSC — Sablefish (Black Cod) Stock Assessment & IFQ Program",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/commercial-fishing/individual-fishing-quota-program-alaska",
+    "secondary_sources": [
+      "NPFMC Groundfish Specifications — Sablefish GOA & BSAI",
+      "Alaska Boats & Permits — Sablefish IFQ Market Prices",
+      "NOAA Sablefish Longline Survey (1978–2024)"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Sablefish (Anoplopoma fimbria), known commercially as 'black cod', is Alaska's highest-value groundfish by dollar per pound. IFQ (Individual Fishing Quota) programs for sablefish were implemented in 1995 in the Gulf of Alaska (GOA) and Bering Sea / Aleutian Islands (BSAI) under NPFMC Groundfish FMPs. Sablefish IFQ leasebacks typically trade at $18-28/lb, making sablefish permits among the most valuable in Alaska fisheries. The 2024 GOA sablefish TAC was set at 14,790 mt."
+  },
+  "ifq_program_highlights": {
+    "implemented": 1995,
+    "regulatory_areas": ["GOA (Gulf of Alaska)", "BSAI (Bering Sea & Aleutian Islands)"],
+    "initial_ifq_issued_mt": 14800,
+    "vessel_categories": ["Catcher Vessels (CV) Hookline", "Catcher Processors (CP)"],
+    "gear_types": ["Longline (Primary)", "Pot Gear (Limited)"]
+  },
+  "annual_tac_and_harvest": [
+    {"year": 1995, "goa_tac_mt": 18500, "bsai_tac_mt": 3200, "exvessel_avg_per_lb": 2.14},
+    {"year": 2000, "goa_tac_mt": 21200, "bsai_tac_mt": 3800, "exvessel_avg_per_lb": 2.42},
+    {"year": 2010, "goa_tac_mt": 12400, "bsai_tac_mt": 2600, "exvessel_avg_per_lb": 3.12},
+    {"year": 2015, "goa_tac_mt": 16800, "bsai_tac_mt": 3400, "exvessel_avg_per_lb": 4.18},
+    {"year": 2020, "goa_tac_mt": 16100, "bsai_tac_mt": 3100, "exvessel_avg_per_lb": 6.84},
+    {"year": 2022, "goa_tac_mt": 15900, "bsai_tac_mt": 3300, "exvessel_avg_per_lb": 7.42},
+    {"year": 2024, "goa_tac_mt": 14790, "bsai_tac_mt": 2980, "exvessel_avg_per_lb": 8.20}
+  ],
+  "ifq_leaseback_market_2024": {
+    "avg_lease_per_lb": 1.85,
+    "avg_quota_unit_sale_per_lb": 24.50,
+    "highest_recorded_lease_per_lb": 3.20,
+    "notes": "Sablefish IFQ permits are most valuable in Area D (Southeast Alaska near Sitka/Juneau)"
+  }
+}

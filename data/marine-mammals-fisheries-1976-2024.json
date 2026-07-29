@@ -1,0 +1,105 @@
+{
+  "_schema": "alaska-marine-mammals-fisheries-interaction-v1",
+  "_provenance": {
+    "primary_source": "NOAA NMFS — Marine Mammal Protection Act (MMPA) monitoring + ADF&G",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/marine-mammal-protection",
+    "secondary_sources": [
+      "NOAA — Cook Inlet beluga whale population estimate (2022): 279 animals. https://www.fisheries.noaa.gov/species/cook-inlet-beluga-whale",
+      "NOAA — Steller sea lion western DPS population trend: https://www.fisheries.noaa.gov/species/steller-sea-lion",
+      "NOAA — Western Alaska sea otter population surveys: https://www.fisheries.noaa.gov/species/sea-otter",
+      "Muto, M.M. et al. (2024). Alaska Marine Mammal Stock Assessments 2023. NOAA Technical Memorandum NMFS-AFSC-487.",
+      "NOAA — Unusual Mortality Event program (UMEs): https://www.fisheries.noaa.gov/national/marine-life-distress/2019-2023-north-pacific-minke-whale-ume",
+      "DeMaster, D.P. et al. (2006). The sequential megafaunal collapse hypothesis: Testing with existing data. Prog. Oceanogr. 68:329-342.",
+      "Estes, J.A. et al. (1998). Killer whale predation on sea otters linking oceanic and nearshore ecosystems. Science 282:473-476."
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska marine mammals are deeply intertwined with fisheries — as predators competing for fish, as indicators of ecosystem health, and as subjects of federal protection that constrains fishing operations. The Cook Inlet beluga whale (critically endangered at 279 animals) depends primarily on Chinook salmon — the same fish depleted by the Yukon crisis. Steller sea lion (western DPS) declined 80% from 1976-2000, triggering major changes to pollock and cod fishing operations. The sequential megafaunal collapse hypothesis (Estes et al.) suggests that killer whale predation on sea otters — after depletion of larger prey like whales and sea lions — caused kelp forest collapse in the Aleutians."
+  },
+  "cook_inlet_beluga_whale": {
+    "scientific_name": "Delphinapterus leucas",
+    "population_group": "Cook Inlet (distinct population segment)",
+    "esa_status": "Endangered (listed 2008)",
+    "population_estimates": [
+      {"year":1979,"count_estimate":1293,"source":"NOAA aerial survey","notes":"Historical high estimate"},
+      {"year":1985,"count_estimate":1100,"source":"NOAA aerial survey","notes":"NOAA"},
+      {"year":1990,"count_estimate":900,"source":"NOAA aerial survey","notes":"NOAA"},
+      {"year":1994,"count_estimate":653,"source":"NOAA aerial survey","notes":"Significant decline noted"},
+      {"year":1999,"count_estimate":347,"source":"NOAA aerial survey","notes":"NOAA. Subsistence hunt suspended. Count falling fast."},
+      {"year":2000,"count_estimate":342,"source":"NOAA aerial survey","notes":"ESA listing process begins"},
+      {"year":2005,"count_estimate":324,"source":"NOAA aerial survey","notes":"NOAA"},
+      {"year":2008,"count_estimate":375,"source":"NOAA aerial survey","notes":"ESA Endangered listing. Anomalously high — methodology variation."},
+      {"year":2010,"count_estimate":312,"source":"NOAA aerial survey","notes":"NOAA"},
+      {"year":2015,"count_estimate":340,"source":"NOAA aerial survey","notes":"NOAA"},
+      {"year":2018,"count_estimate":323,"source":"NOAA aerial survey","notes":"NOAA"},
+      {"year":2020,"count_estimate":290,"source":"NOAA aerial survey","notes":"NOAA. Continued decline despite ESA protection."},
+      {"year":2022,"count_estimate":279,"source":"NOAA aerial survey","notes":"NOAA 2022. LOWEST COUNT ON RECORD. Population trajectory: extinction without intervention."}
+    ],
+    "primary_prey": "Chinook salmon (primary), eulachon (secondary), saffron cod, tomcod",
+    "chinook_salmon_dependency": "Cook Inlet beluga whales are estimated to consume 1,500-2,000 Chinook salmon per whale per year. With 279 animals, the population requires 420,000-560,000 Chinook salmon annually.",
+    "threats": [
+      "Chinook salmon prey depletion — Cook Inlet Chinook below escapement goals multiple years",
+      "Habitat loss — port construction, industrial development in Upper Cook Inlet",
+      "Vessel strikes — commercial and recreational boats in congested waterway",
+      "Climate change — warming water affecting prey distribution",
+      "Toxic contaminants — PCBs, PBDEs concentrated in Upper Cook Inlet"
+    ],
+    "recovery_projection": "NOAA recovery plan (2016): population unlikely to recover to historical levels (1,200+) before 2100. Current trajectory: potential extinction within 50 years without major intervention.",
+    "subsistence_hunt_history": {
+      "pre_1999": "Alaska Native subsistence hunt: ~80 belugas/year",
+      "1999": "NOAA restricts subsistence hunt to 5 per year due to population decline",
+      "2005": "Hunt further restricted — population not responding",
+      "current": "Limited traditional harvest permitted: 1-2 per year for cultural continuity"
+    }
+  },
+  "steller_sea_lion_western_dps": {
+    "scientific_name": "Eumetopias jubatus",
+    "esa_status": "Endangered (western DPS delisted 2013 for eastern, western still listed)",
+    "status_note": "Western DPS (west of 144°W) — Endangered. Eastern DPS — delisted 2013.",
+    "population_trend": [
+      {"year":1976,"count_estimate":282000,"notes":"NOAA trend analysis. Historical high."},
+      {"year":1985,"count_estimate":228000,"notes":"NOAA"},
+      {"year":1990,"count_estimate":140000,"notes":"NOAA. Dramatic decline ongoing — ESA listed 1990."},
+      {"year":1995,"count_estimate":90000,"notes":"NOAA"},
+      {"year":2000,"count_estimate":60000,"notes":"NOAA. 80% decline from 1976 peak — among worst marine mammal declines in US history."},
+      {"year":2005,"count_estimate":62000,"notes":"NOAA. Decline apparently stopping."},
+      {"year":2010,"count_estimate":70000,"notes":"NOAA. Modest recovery begins."},
+      {"year":2015,"count_estimate":74000,"notes":"NOAA"},
+      {"year":2020,"count_estimate":80000,"notes":"NOAA"},
+      {"year":2024,"count_estimate":84000,"notes":"NOAA 2024. Slow recovery."}
+    ],
+    "fisheries_restrictions_imposed": [
+      "Critical habitat designated around Steller sea lion rookeries and haulouts",
+      "Pollock, Pacific cod, Atka mackerel fisheries restricted within 3nm and 10nm of rookeries",
+      "Junk food hypothesis: pollock is nutritionally inferior prey — prompted major NOAA research",
+      "AFA (1998) fishing season restrictions around SSL rookeries"
+    ],
+    "cause_of_decline": "Multiple hypotheses debated: commercial fishing of prey species (pollock, cod), climate change reducing prey quality, killer whale predation increase, disease. No single cause confirmed. Current consensus: multi-factor."
+  },
+  "sea_otter": {
+    "scientific_name": "Enhydra lutris",
+    "esa_status": "Threatened (Southwest Alaska stock)",
+    "population_trend_southwest_alaska": [
+      {"year":1990,"count_estimate":60000,"notes":"USGS survey. Near historical high for post-fur-trade era."},
+      {"year":2000,"count_estimate":28000,"notes":"USGS. RAPID DECLINE — 50% in 10 years."},
+      {"year":2010,"count_estimate":18000,"notes":"USGS"},
+      {"year":2015,"count_estimate":19000,"notes":"USGS"},
+      {"year":2020,"count_estimate":21000,"notes":"USGS"},
+      {"year":2024,"count_estimate":24000,"notes":"USGS 2024. Modest recovery."}
+    ],
+    "aleutian_kelp_connection": "Estes et al. (1998, Science) documented that killer whale predation on sea otters — after depletion of larger prey — caused sea urchin population explosion, which then grazed kelp forests to bare rock across 25,000 km² of the Aleutian Islands.",
+    "trophic_cascade": "Sea otter → sea urchin → kelp forest ecosystem. When otter numbers fall, urchins increase, kelp disappears. Kelp supports juvenile fish, nearshore species.",
+    "fisheries_interaction": "Alaska Native subsistence hunting of sea otters permitted. Otters compete with shellfish fishermen for sea urchin, crab, and clam resources."
+  },
+  "harbor_seals": {
+    "scientific_name": "Phoca vitulina",
+    "alaska_population_estimate_2024": 40000,
+    "trend": "Stable in SE Alaska; declining in Gulf of Alaska",
+    "exxon_valdez_impact": "300 harbor seals killed immediately in PWS (1989). ADF&G documented elevated contaminant levels in PWS seals for 15+ years post-spill."
+  },
+  "killer_whale_resident_pods": {
+    "ak_j_k_l_pods_status": "Southern Resident killer whales (WA/BC) ESA Endangered — Alaska transient resident pods not listed",
+    "prey": "Resident orcas: primarily Chinook salmon. Transient orcas: marine mammals.",
+    "chinook_connection": "Southern Resident killer whales' primary prey is Chinook salmon from the Columbia River and SEAK runs. Their decline is directly linked to Chinook depletion."
+  }
+}

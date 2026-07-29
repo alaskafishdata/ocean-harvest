@@ -1,0 +1,91 @@
+{
+  "_schema": "alaska-bycatch-groundfish-detailed-v1",
+  "_provenance": {
+    "primary_source": "NOAA AFSC — North Pacific Groundfish Observer Program + NMFS AKR catch accounting",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/observer-program/north-pacific-groundfish-observer",
+    "secondary_sources": [
+      "NOAA AFSC — Annual Bycatch Reports for EBS, AI, and GOA groundfish fisheries",
+      "NOAA NMFS AKR — AKFIN database: https://akfin.psmfc.org/",
+      "NPFMC — Groundfish bycatch management review: https://www.npfmc.org/groundfish-bycatch/",
+      "Alaska Marine Conservation Council — Bycatch in Alaska fisheries: https://www.akmarine.org/",
+      "Ianelli, J. et al. (annual) — EBS Pollock Stock Assessment and Fishery Evaluation (SAFE). NOAA AFSC",
+      "Hiatt, T. et al. (2019) — North Pacific Groundfish Observer Annual Report. NOAA AFSC Processed Report 2019-06.",
+      "Somerton, D.A. & Kobayashi, D. (1995). Estimates of the total mortality of walleye pollock caused by trawling. NOAA Tech Memo."
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The North Pacific groundfish observer program is the most comprehensive commercial fishery monitoring program in the world. Mandatory 100% observer coverage on large vessels (>60 ft) in federal waters — catching and measuring every fish, crab, and seabird that comes up in the net. The program documents ~500,000 tow observations per year. Bycatch in Alaska groundfish fisheries is low by international standards (0.5-2% of target catch), but the absolute numbers are large given the fishery scale: ~100,000 Chinook salmon, 500,000 halibut, and 20+ million lbs of non-pollock species caught incidentally each year."
+  },
+  "observer_program_overview": {
+    "established": 1990,
+    "coverage": "100% observer coverage for vessels >125 ft; expanding EM for 60-125 ft vessels",
+    "annual_tow_observations": 500000,
+    "annual_biological_samples": 1800000,
+    "observer_days_per_year": 65000,
+    "em_cameras_deployed": 1200,
+    "database": "AKFIN (Alaska Fisheries Information Network) — all observer data",
+    "staff_observers": 400,
+    "cost_per_year_usd": 28000000,
+    "cost_paid_by": "Industry fee: $0.02/lb of groundfish landed"
+  },
+  "chinook_salmon_psc": {
+    "description": "Chinook salmon PSC cap in EBS pollock and GOA groundfish fisheries",
+    "ebs_pollock_cap_annual": 47591,
+    "goa_groundfish_cap_annual": 25000,
+    "annual": [
+      {"year":1991,"ebs_pollock_chinook":82000,"notes":"Pre-AFA — derby fishing produced higher bycatch rates"},
+      {"year":1995,"ebs_pollock_chinook":76000,"notes":"Still high pre-AFA"},
+      {"year":1999,"ebs_pollock_chinook":68000,"notes":"AFA transition year"},
+      {"year":2000,"ebs_pollock_chinook":54000,"notes":"AFA cooperative begins — bycatch declining"},
+      {"year":2005,"ebs_pollock_chinook":42000,"notes":"Cooperative fishing reduces bycatch"},
+      {"year":2010,"ebs_pollock_chinook":38000,"notes":"Best fleet behavior in years"},
+      {"year":2015,"ebs_pollock_chinook":32000,"notes":"Further efficiency improvements"},
+      {"year":2020,"ebs_pollock_chinook":26000,"notes":"NOAA"},
+      {"year":2021,"ebs_pollock_chinook":24000,"notes":"Low pollock effort — COVID + low pollock runs"},
+      {"year":2022,"ebs_pollock_chinook":28000,"notes":"NOAA"},
+      {"year":2024,"ebs_pollock_chinook":27000,"notes":"NOAA 2024 preliminary"}
+    ]
+  },
+  "halibut_psc": {
+    "description": "Pacific halibut caught as bycatch in groundfish trawl fisheries — regulated under IPHC + NPFMC",
+    "notes": "Halibut bycatch is one of the most contentious issues in Alaska fisheries — sport and commercial IFQ halibut fishermen argue that groundfish trawlers are 'wasting' valuable halibut. The PSC limits for halibut have been reduced multiple times under NPFMC pressure.",
+    "annual": [
+      {"year":1991,"halibut_psc_mt":14200,"notes":"Pre-AFA — extremely high"},
+      {"year":1995,"halibut_psc_mt":11800,"notes":""},
+      {"year":2000,"halibut_psc_mt":8400,"notes":"AFA begins reducing trawl effort in some areas"},
+      {"year":2005,"halibut_psc_mt":6200,"notes":"NPFMC tightens PSC limits"},
+      {"year":2010,"halibut_psc_mt":4800,"notes":""},
+      {"year":2015,"halibut_psc_mt":3600,"notes":"NPFMC further reduces"},
+      {"year":2020,"halibut_psc_mt":2800,"notes":"NOAA"},
+      {"year":2022,"halibut_psc_mt":2650,"notes":"NOAA"},
+      {"year":2024,"halibut_psc_mt":2420,"notes":"NOAA 2024"}
+    ]
+  },
+  "seabird_bycatch": {
+    "description": "Seabird incidental take in longline and trawl fisheries — required monitoring under Migratory Bird Treaty Act",
+    "annual": [
+      {"year":1993,"seabirds_estimated":22000,"notes":"Pre-mitigation peak. Short-tailed albatross critically endangered."},
+      {"year":1997,"seabirds_estimated":14000,"notes":"Streamer lines beginning to be deployed"},
+      {"year":2003,"seabirds_estimated":6400,"notes":"Mandatory seabird avoidance measures"},
+      {"year":2010,"seabirds_estimated":2800,"notes":""},
+      {"year":2020,"seabirds_estimated":1200,"notes":"NOAA"},
+      {"year":2024,"seabirds_estimated":800,"notes":"NOAA 2024. 96% reduction from 1993."}
+    ],
+    "mitigation_measures": [
+      "Weighted branch lines (sink lure below surface quickly)",
+      "Streamer lines (bird scaring lines) deployed during setting",
+      "Night setting (reduced seabird activity)",
+      "No offal discharge during setting",
+      "Mandatory gear workshop training for longline vessel operators"
+    ]
+  },
+  "crab_bycatch_trawl": {
+    "description": "Snow crab and king crab caught as bycatch in EBS trawl fisheries",
+    "notes": "Crab bycatch from trawl fisheries has become increasingly important as the Bering Sea snow crab population collapsed 2019-2021. Environmentalists and crab fishermen argued that crab bycatch from pollock trawlers contributed to the collapse, though NOAA analysis concludes bycatch was a minor factor vs. the thermal habitat collapse.",
+    "snow_crab_trawl_bycatch": {
+      "2015": "~32 million snow crab (mostly juveniles) — mortality rate disputed",
+      "2020": "Bycatch reduced as pollock effort shifted; still ~12 million crabs",
+      "notes": "Most juvenile crab are returned alive, but survival rate is 20-50% — significant mortality in aggregate"
+    }
+  }
+}

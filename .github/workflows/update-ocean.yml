@@ -1,0 +1,67 @@
+name: Update Ocean Harvest & Quota Data
+
+on:
+  schedule:
+    # Weekly on Mondays at 7 AM UTC (NOAA and IPHC update weekly)
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', '.github/workflows/**']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-ocean-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Fetch NOAA AFSC groundfish quota usage
+        run: |
+          python3 scripts/fetch-groundfish-quota.py
+
+      - name: Fetch IPHC halibut catch report summaries
+        run: |
+          python3 scripts/fetch-halibut.py
+
+      - name: Fetch ADF&G crab catch summaries
+        run: |
+          python3 scripts/fetch-crab.py
+
+      - name: Validate outputs
+        run: |
+          python3 -c "
+          import json, os, glob
+          for f in glob.glob('data/*.json'):
+              try:
+                  data = json.load(open(f))
+                  print(f'✓ {f}: {os.path.getsize(f)} bytes')
+              except Exception as e:
+                  print(f'✗ {f}: {e}')
+          "
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.name "alaskafishdata-bot"
+          git config --local user.email "bot@alaskafishdata.com"
+          git add data/ocean-harvest.json
+          if git diff --staged --quiet; then
+            echo "No ocean data changes"
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+            git commit -m "data(ocean): weekly ocean harvest update @ ${TIMESTAMP} [skip ci]"
+            git push
+          fi

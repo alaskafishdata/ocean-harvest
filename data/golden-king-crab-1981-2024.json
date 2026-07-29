@@ -1,0 +1,26 @@
+{
+  "_schema": "aleutian-islands-golden-king-crab-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries & NOAA AFSC BSAI Crab SAFE",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.goldenkingcrab",
+    "secondary_sources": [
+      "Siddeek, M.S.M. et al. (2022). Aleutian Islands Golden King Crab Model-Based Stock Assessment. NPFMC SAFE."
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The Aleutian Islands golden king crab (Lithodes aequispinus) fishery operates at extreme depths (100 to 500 fathoms / 600 to 3,000 feet) along the volcanic drops of the Aleutian Chain. Unlike Red King Crab and Snow Crab which collapsed, Golden King Crab populations have remained remarkably stable due to conservative TACs, deep-water habitat buffering from warming surface waters, and specialized longline pot gear."
+  },
+  "fishery_metrics": {
+    "depth_range_fathoms": "100 - 500",
+    "gear_type": "Longline pot gear (up to 100 pots per longline, 1-mile groundline)",
+    "districts": ["East of 174° W (Dutch Harbor)", "West of 174° W (Adak)"],
+    "annual_tac_lbs_millions": [
+      { "year": 1985, "tac_lbs_m": 12.8, "notes": "Early development peak" },
+      { "year": 1995, "tac_lbs_m": 6.9, "notes": "Post-booms stabilization" },
+      { "year": 2005, "tac_lbs_m": 5.7, "notes": "Rationalization begins" },
+      { "year": 2015, "tac_lbs_m": 6.3, "notes": "Stable harvest" },
+      { "year": 2022, "tac_lbs_m": 5.9, "notes": "Open during snow crab closure" },
+      { "year": 2024, "tac_lbs_m": 5.5, "notes": "Consistent stock status" }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_schema": "alaska-goa-rockfish-sablefish-v1",
+  "_provenance": {
+    "primary_source": "NOAA AFSC — Gulf of Alaska Rockfish & Sablefish SAFE Reports",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/population-assessments/north-pacific-groundfish-stock-assessments-and-fishery-evaluation",
+    "secondary_sources": [
+      "NPFMC — GOA Groundfish Fishery Management Plan Specifications",
+      "ADF&G Division of Commercial Fisheries — Rockfish State Water Assessments",
+      "Sitka Sablefish Industry Association"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "GOA Sablefish (Anoplopoma fimbria, black cod) is managed under IFQ with a distinct GOA area allocation. It is Alaska's most valuable per-pound groundfish at $8.20/lb ex-vessel in 2024. GOA Rockfish includes multiple species: Pacific Ocean Perch (POP — Sebastes alutus, the dominant species), Northern Rockfish, Dusky Rockfish, Rougheye/Blackspotted Rockfish, and Shortspine Thornyhead. POP are extremely long-lived (100+ years) and managed very conservatively. The Rockfish Program in SEAK (2010) allows ADF&G management of rockfish in state waters with a community-based allocation system."
+  },
+  "goa_sablefish_annual": [
+    {"year": 2000, "tac_mt": 12800, "harvest_mt": 12200, "exvessel_per_lb": 3.80, "value_usd_m": 96.4},
+    {"year": 2010, "tac_mt": 14200, "harvest_mt": 13800, "exvessel_per_lb": 5.20, "value_usd_m": 149.8},
+    {"year": 2015, "tac_mt": 16400, "harvest_mt": 15800, "exvessel_per_lb": 6.80, "value_usd_m": 224.2},
+    {"year": 2020, "tac_mt": 11200, "harvest_mt": 10800, "exvessel_per_lb": 7.40, "value_usd_m": 167.4},
+    {"year": 2024, "tac_mt": 14790, "harvest_mt": 14200, "exvessel_per_lb": 8.20, "value_usd_m": 243.6}
+  ],
+  "goa_rockfish_by_species_2024": [
+    {"species": "Pacific Ocean Perch (POP)", "tac_mt": 28400, "max_age_years": 100, "exvessel_per_lb": 0.42},
+    {"species": "Northern Rockfish", "tac_mt": 8200, "max_age_years": 100, "exvessel_per_lb": 0.38},
+    {"species": "Dusky Rockfish", "tac_mt": 4800, "max_age_years": 50, "exvessel_per_lb": 0.44},
+    {"species": "Rougheye/Blackspotted", "tac_mt": 2400, "max_age_years": 150, "exvessel_per_lb": 0.36},
+    {"species": "Shortspine Thornyhead", "tac_mt": 1840, "max_age_years": 100, "exvessel_per_lb": 0.68}
+  ],
+  "seak_rockfish_program": {
+    "established": 2010,
+    "authority": "ADF&G — State Waters Rockfish Management",
+    "entry_level_permits": "Community Quota Entities (CQEs)",
+    "target_species": ["Pacific Ocean Perch", "Widow Rockfish", "Black Rockfish"],
+    "primary_ports": ["Sitka", "Petersburg", "Ketchikan"]
+  }
+}

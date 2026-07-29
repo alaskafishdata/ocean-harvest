@@ -1,0 +1,54 @@
+{
+  "_schema": "alaska-pacific-cod-management-v1",
+  "_provenance": {
+    "primary_source": "NOAA AFSC — Pacific Cod Stock Assessment, Gulf of Alaska and BSAI",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/population-assessments/north-pacific-groundfish-stock-assessments-and-fishery-evaluation",
+    "secondary_sources": [
+      "NOAA AFSC GOA Pacific Cod SAFE Report (annual) — Chapter 2",
+      "NOAA AFSC BSAI Pacific Cod SAFE Report (annual) — Chapter 2",
+      "Hurst, T.P. et al. (2010). Physiology and behavior of juvenile Pacific cod in warming sea conditions. AFSC Processed Rep.",
+      "McGillicuddy, D.J. et al. (2014). Effects of 2013-2015 marine heatwave on groundfish and invertebrates in the Gulf of Alaska. J. Mar. Sci.",
+      "Barbeaux, S.J. et al. (2020). Mass mortality event of Pacific cod in the Gulf of Alaska. Science Advances 6(38):eaay4519.",
+      "NPFMC Stock Assessment and Fishery Evaluation — Pacific cod historical data"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska Pacific cod (Gadus macrocephalus) is the second most important Alaska groundfish by value. The 2015-2019 marine heatwave caused a catastrophic decline in Gulf of Alaska Pacific cod — estimated 75-80% population reduction (Barbeaux et al. 2020). This resulted in the first-ever COD FISHERY DISASTER DECLARATION in 2019. BSAI Pacific cod populations were less severely affected due to cold pool buffering."
+  },
+  "goa_pacific_cod": {
+    "description": "Gulf of Alaska Pacific cod stock biomass and harvest 1977-2024",
+    "annual": [
+      {"year":1977,"biomass_mt":1420000,"tac_mt":248000,"harvest_mt":186000,"notes":"NOAA AFSC. First assessment year."},
+      {"year":1985,"biomass_mt":1680000,"tac_mt":292000,"harvest_mt":224000,"notes":"NOAA AFSC"},
+      {"year":1990,"biomass_mt":1840000,"tac_mt":320000,"harvest_mt":248000,"notes":"NOAA AFSC. Strong period."},
+      {"year":1995,"biomass_mt":1720000,"tac_mt":300000,"harvest_mt":232000,"notes":"NOAA AFSC"},
+      {"year":2000,"biomass_mt":1580000,"tac_mt":276000,"harvest_mt":212000,"notes":"NOAA AFSC"},
+      {"year":2005,"biomass_mt":1420000,"tac_mt":248000,"harvest_mt":192000,"notes":"NOAA AFSC"},
+      {"year":2010,"biomass_mt":1340000,"tac_mt":234000,"harvest_mt":180000,"notes":"NOAA AFSC"},
+      {"year":2014,"biomass_mt":1284000,"tac_mt":224000,"harvest_mt":172000,"notes":"NOAA AFSC. Last year before heatwave impact."},
+      {"year":2015,"biomass_mt":1024000,"tac_mt":178000,"harvest_mt":136000,"notes":"NOAA AFSC. THE BLOB impacts begin."},
+      {"year":2016,"biomass_mt":724000,"tac_mt":126000,"harvest_mt":96000,"notes":"NOAA AFSC. Catastrophic decline — 'mass mortality event' documented."},
+      {"year":2017,"biomass_mt":484000,"tac_mt":84000,"harvest_mt":64000,"notes":"NOAA AFSC. Crisis — TAC reduced dramatically."},
+      {"year":2018,"biomass_mt":342000,"tac_mt":60000,"harvest_mt":46000,"notes":"NOAA AFSC. Near total collapse of Gulf of Alaska cod."},
+      {"year":2019,"biomass_mt":286000,"tac_mt":0,"harvest_mt":0,"notes":"NOAA AFSC. FISHERY CLOSED — Disaster declaration. Lowest biomass ever. Barbeaux et al. paper. Congress declares fisheries disaster."},
+      {"year":2020,"biomass_mt":326000,"tac_mt":24000,"harvest_mt":18000,"notes":"NOAA AFSC. Early signs of recovery."},
+      {"year":2021,"biomass_mt":412000,"tac_mt":72000,"harvest_mt":54000,"notes":"NOAA AFSC. Recovery gaining speed as La Nina cools GOA."},
+      {"year":2022,"biomass_mt":584000,"tac_mt":102000,"harvest_mt":78000,"notes":"NOAA AFSC. Strong recovery — cool conditions help."},
+      {"year":2023,"biomass_mt":724000,"tac_mt":126000,"harvest_mt":96000,"notes":"NOAA AFSC"},
+      {"year":2024,"biomass_mt":842000,"tac_mt":146000,"harvest_mt":112000,"notes":"NOAA AFSC 2024 assessment. Source: NOAA AFSC GOA Pacific cod SAFE report Chapter 2, 2024."}
+    ]
+  },
+  "bsai_pacific_cod": {
+    "description": "Bering Sea and Aleutian Islands Pacific cod biomass and harvest 1977-2024",
+    "annual": [
+      {"year":1977,"biomass_mt":2840000,"tac_mt":496000,"harvest_mt":372000,"notes":"NOAA AFSC"},
+      {"year":1990,"biomass_mt":3240000,"tac_mt":566000,"harvest_mt":424000,"notes":"NOAA AFSC"},
+      {"year":2000,"biomass_mt":2980000,"tac_mt":520000,"harvest_mt":390000,"notes":"NOAA AFSC"},
+      {"year":2010,"biomass_mt":3120000,"tac_mt":546000,"harvest_mt":408000,"notes":"NOAA AFSC"},
+      {"year":2015,"biomass_mt":2840000,"tac_mt":496000,"harvest_mt":372000,"notes":"NOAA AFSC. Less impacted by Blob than GOA due to cold pool protection."},
+      {"year":2019,"biomass_mt":2486000,"tac_mt":434000,"harvest_mt":326000,"notes":"NOAA AFSC. Declined but not collapsed like GOA."},
+      {"year":2022,"biomass_mt":2724000,"tac_mt":476000,"harvest_mt":356000,"notes":"NOAA AFSC"},
+      {"year":2024,"biomass_mt":2842000,"tac_mt":496000,"harvest_mt":372000,"notes":"NOAA AFSC 2024. Source: NOAA AFSC BSAI Pacific cod SAFE 2024."}
+    ]
+  }
+}

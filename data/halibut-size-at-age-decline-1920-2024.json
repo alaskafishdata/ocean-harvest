@@ -1,0 +1,41 @@
+{
+  "_schema": "alaska-halibut-size-at-age-decline-v1",
+  "_provenance": {
+    "primary_source": "International Pacific Halibut Commission (IPHC) — Annual Data Reports & Technical Reports",
+    "primary_url": "https://www.iphc.int/data/time-series-datasets/",
+    "secondary_sources": [
+      "Clark, W.G. & Hare, S.R. (2002). Effects of size-at-age changes on halibut stock assessment and yield predictions. IPHC Scientific Report No. 82.",
+      "IPHC Stock Assessment 2023 (IPHC-2024-SA-01)",
+      "Stewart, I.J. & Hicks, A.C. (2018). Spatial survey and assessment models for Pacific halibut."
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "One of the most remarkable biological phenomena in North Pacific fisheries is the ~50% drop in Pacific halibut weight-at-age between 1980 and 2012. A 12-year-old female halibut weighed approximately 45 lbs in 1988, but only 18 lbs in 2012. IPHC research attributes this decline to a combination of intra- and inter-specific competition (high total flatfish biomass), ocean climate shifts (PDO positive phases), and selective fishing pressure. Size-at-age has stabilized and shown mild increases since 2015."
+  },
+  "female_weight_at_age_12_lbs": [
+    { "year": 1925, "weight_lbs": 28.5, "era": "Early commercial baseline" },
+    { "year": 1940, "weight_lbs": 32.0, "era": "Pre-WWII rebuild" },
+    { "year": 1960, "weight_lbs": 41.2, "era": "Post-war high productivity" },
+    { "year": 1975, "weight_lbs": 48.6, "era": "Historical maximum size-at-age" },
+    { "year": 1985, "weight_lbs": 44.2, "era": "High abundance peak" },
+    { "year": 1995, "weight_lbs": 31.8, "era": "Decline accelerating" },
+    { "year": 2005, "weight_lbs": 22.4, "era": "Continued drop" },
+    { "year": 2012, "weight_lbs": 17.8, "era": "Nadir (minimum weight-at-age)" },
+    { "year": 2018, "weight_lbs": 20.6, "era": "Early stabilization" },
+    { "year": 2024, "weight_lbs": 22.8, "era": "Modest recovery" }
+  ],
+  "hypothesized_mechanisms": [
+    {
+      "mechanism": "Density dependence / Competition",
+      "evidence": "High total biomass of Arrowtooth flounder and flatfish in the Bering Sea / GOA competing for benthic prey (polychaetes, crabs, small fish)."
+    },
+    {
+      "mechanism": "Ocean climate (PDO / SST)",
+      "evidence": "Positive PDO phases alter zooplankton and forage fish composition, reducing high-fat prey availability during critical juvenile growth years."
+    },
+    {
+      "mechanism": "Fishery-induced evolution",
+      "evidence": "Decades of minimum size limits (32 inches) selectively removing the fastest-growing individuals before they reproduce."
+    }
+  ]
+}

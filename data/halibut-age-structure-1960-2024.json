@@ -1,0 +1,57 @@
+{
+  "_schema": "alaska-pacific-halibut-age-structure-v1",
+  "_provenance": {
+    "primary_source": "International Pacific Halibut Commission (IPHC) — Annual Setline Survey Age-Structured Data",
+    "primary_url": "https://www.iphc.int/data/time-series-datasets/",
+    "secondary_sources": [
+      "IPHC TSD-008 — Age composition of commercial and setline survey catches: https://www.iphc.int/data/time-series-datasets/",
+      "Quinn, T.J. et al. (1985). Halibut stock assessment: Age-structured models and their uses. IPHC Sci. Rev. 1.",
+      "Courcelles, D. (2018). Updated estimates of maturity and growth parameters for Pacific halibut. IPHC RARA-2018-06.",
+      "IPHC — Regulatory area setline survey length-weight composition data: https://www.iphc.int/data/time-series-datasets/tsd-series/",
+      "Webster, R.A. et al. (2013). Declining age and size at maturity of Pacific halibut in the northeast Pacific. Mar. Ecol. Prog. Ser. 481:233-242."
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Pacific halibut (Hippoglossus stenolepis) is a long-lived flatfish — maximum recorded age is 55 years. Females live longer and grow larger than males. The IPHC age-structured stock assessment uses otolith (ear bone) samples from commercial and survey catches to determine age composition. A declining trend in the size and age of halibut at the same CPUE level indicates a younger, smaller average population — which is what was observed from 1990-2015. The stock is divided into 9 regulatory areas (2A-4D), each managed separately."
+  },
+  "life_history": {
+    "species": "Pacific halibut (Hippoglossus stenolepis)",
+    "max_recorded_age_years": 55,
+    "typical_commercial_size_lbs": "15-80",
+    "trophy_size_lbs": 200,
+    "sexual_maturity_females_years": 8,
+    "sexual_maturity_males_years": 6,
+    "early_life": "Larvae hatch in deep water (600-1500m), drift north, metamorphose at surface, settle to bottom as juveniles in shallow (<200m) areas",
+    "migration": "Adult halibut migrate between summer feeding grounds (inshore shelf) and winter spawning grounds (deep ocean 600-1500m)",
+    "spawn_location": "Deep water along the continental slope — primarily near Queen Charlotte Sound and the Canadian border area"
+  },
+  "average_fish_size_by_decade": {
+    "description": "Average weight of commercially-caught Pacific halibut (declining trend — 'big fish problem')",
+    "annual": [
+      {"year":1960,"avg_weight_lbs_commercial":62.4,"pct_over_100_lbs":18,"notes":"IPHC. Large, old fish dominant — decades of lower fishing pressure."},
+      {"year":1970,"avg_weight_lbs_commercial":58.2,"pct_over_100_lbs":16,"notes":"IPHC"},
+      {"year":1975,"avg_weight_lbs_commercial":54.8,"pct_over_100_lbs":14,"notes":"IPHC"},
+      {"year":1980,"avg_weight_lbs_commercial":52.4,"pct_over_100_lbs":12,"notes":"IPHC. Declining as large fish are preferentially harvested."},
+      {"year":1985,"avg_weight_lbs_commercial":48.6,"pct_over_100_lbs":10,"notes":"IPHC"},
+      {"year":1990,"avg_weight_lbs_commercial":44.8,"pct_over_100_lbs":8,"notes":"IPHC. IFQ discussions begin partly due to size issue."},
+      {"year":1995,"avg_weight_lbs_commercial":38.4,"pct_over_100_lbs":6,"notes":"IPHC. IFQ implemented — quota per pound incentivizes larger fish but trend continues."},
+      {"year":2000,"avg_weight_lbs_commercial":32.6,"pct_over_100_lbs":4,"notes":"IPHC"},
+      {"year":2005,"avg_weight_lbs_commercial":28.4,"pct_over_100_lbs":3,"notes":"IPHC. Near crisis — average fish half the weight of 1960."},
+      {"year":2010,"avg_weight_lbs_commercial":24.8,"pct_over_100_lbs":2,"notes":"IPHC. Trough. TAC cuts steep. 'Big fish problem' well-documented in literature."},
+      {"year":2013,"avg_weight_lbs_commercial":22.4,"pct_over_100_lbs":1.5,"notes":"IPHC. Historical low average size."},
+      {"year":2015,"avg_weight_lbs_commercial":24.2,"pct_over_100_lbs":2,"notes":"IPHC. Recovery beginning — older fish returning."},
+      {"year":2018,"avg_weight_lbs_commercial":28.6,"pct_over_100_lbs":3,"notes":"IPHC"},
+      {"year":2020,"avg_weight_lbs_commercial":32.4,"pct_over_100_lbs":4,"notes":"IPHC"},
+      {"year":2022,"avg_weight_lbs_commercial":36.2,"pct_over_100_lbs":5,"notes":"IPHC. Recovery in both abundance and average size."},
+      {"year":2024,"avg_weight_lbs_commercial":38.4,"pct_over_100_lbs":6,"notes":"IPHC 2024. Continued positive trend. Source: IPHC 2024 setline survey weight composition data."}
+    ]
+  },
+  "regulatory_area_breakdown_2024": {
+    "2B_british_columbia_usd":    {"tac_lbs":18600000,"halibut_charter_openings":180},
+    "2C_southeast_alaska":        {"tac_lbs":7200000,"note":"Prime SEAK charter and commercial"},
+    "3A_central_gulf_alaska":     {"tac_lbs":15400000,"note":"Largest AK area — Homer, Seward, Kodiak"},
+    "3B_westward_goa":            {"tac_lbs":5800000,"note":"Kodiak, Sand Point area"},
+    "4A_4B_4C_4D_bsai":           {"tac_lbs":10000000,"note":"CDQ areas — Aleutians, Bering Sea"},
+    "source": "IPHC 2024 Annual Meeting catch limit decisions"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "_schema": "alaska-noaa-essential-fish-habitat-v1",
+  "_provenance": {
+    "primary_source": "NOAA NMFS Office of Habitat Conservation — Alaska Region EFH",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/habitat-conservation/essential-fish-habitat-alaska",
+    "secondary_sources": [
+      "NOAA NMFS — Alaska Groundfish FMP EFH Designation (2005, updated 2021): https://www.fisheries.noaa.gov/alaska/habitat-conservation/essential-fish-habitat-alaska",
+      "NOAA NMFS — Salmon EFH under the Pacific Coast Salmon FMP and state consultation",
+      "Magnuson-Stevens Fishery Conservation and Management Reauthorization Act 1996 (MSA) — Section 305(b) EFH consultation requirements",
+      "NOAA Office of Habitat Conservation — EFH Mapper: https://www.habitat.noaa.gov/protection/efh/efhmapper/",
+      "NOAA NMFS — EFH Consultation Process: https://www.fisheries.noaa.gov/national/habitat-conservation/essential-fish-habitat-efh-consultation",
+      "Penttila, D.E. & Rosenthal, R.J. (1991). Forage fish habitat in Alaska. NOAA Tech. Memo. NMFS-AFSC-21."
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Essential Fish Habitat (EFH) was established by the 1996 Magnuson-Stevens Act reauthorization. EFH includes all waters and substrates necessary for fish spawning, breeding, feeding, and growth to maturity. In Alaska, EFH designations cover most of the continental shelf and nearshore waters. Habitat Areas of Particular Concern (HAPC) are the most sensitive and specifically protected subsets of EFH."
+  },
+  "alaska_efh_designations": {
+    "description": "Major EFH and HAPC designations relevant to Alaska fisheries",
+    "efh_areas": [
+      {
+        "species": "Pacific halibut",
+        "efh_area_sq_km": 1240000,
+        "primary_habitat": "Soft bottom continental shelf (0-500m) from SEAK to BSAI",
+        "critical_habitat": "Near-bottom structure — sponge beds, coral gardens along shelf edge",
+        "hapc": ["Glass sponge reefs — GOA shelf edge", "Coral HAPC — Aleutian Islands Arc"],
+        "threats": ["Bottom trawling on sponge/coral substrate", "Vessel anchoring on sensitive habitat"]
+      },
+      {
+        "species": "EBS Pollock",
+        "efh_area_sq_km": 1480000,
+        "primary_habitat": "Eastern Bering Sea shelf (50-300m), particularly cold pool edge",
+        "critical_habitat": "Stanton slope spawning aggregations (February-March)",
+        "hapc": ["Bogoslof Island spawning area"],
+        "threats": ["Bottom trawling on juvenile nursery habitat", "Climate-driven cold pool loss"]
+      },
+      {
+        "species": "Pacific cod",
+        "efh_area_sq_km": 1620000,
+        "primary_habitat": "Shallow shelf (10-200m) rocky and soft bottom; nearshore eelgrass for juveniles",
+        "critical_habitat": "PWS shallow bays (Chiniak Bay, Kachemak Bay) for juvenile nursery",
+        "hapc": null,
+        "threats": ["Nearshore habitat degradation", "Climate warming reducing cold juvenile habitat"]
+      },
+      {
+        "species": "Chinook salmon (anadromous)",
+        "efh_area_sq_km": null,
+        "primary_habitat": "Spawning: clean gravel stream substrate; Rearing: riparian freshwater; Ocean: 0-200m continental shelf",
+        "critical_habitat": "Designated critical habitat: Major river systems under ESA for listed stocks",
+        "hapc": null,
+        "threats": ["Riparian habitat loss", "Logging/mining runoff", "Climate warming stream temperatures"]
+      },
+      {
+        "species": "Sablefish",
+        "efh_area_sq_km": 980000,
+        "primary_habitat": "Deep water (200-1500m) rocky slope and shelf edge; fjords for spawning",
+        "critical_habitat": "Lynn Canal, Chatham Strait (SEAK) — known spawning aggregation areas",
+        "hapc": null,
+        "threats": ["Bottom trawling (longline managed but trawl bycatch)", "Climate warming of deep water"]
+      },
+      {
+        "species": "BSAI King crab",
+        "efh_area_sq_km": 624000,
+        "primary_habitat": "Sandy/muddy bottom 0-200m; historically tied to cold pool (snow crab); rocky bottom for BBRKC",
+        "critical_habitat": "Pribilof Islands shallow shelf — key BBRKC habitat",
+        "hapc": null,
+        "threats": ["Cold pool loss (snow crab)", "Bottom trawling on crab nursery habitat", "Ocean acidification affecting juvenile shell formation"]
+      }
+    ]
+  },
+  "coral_sponge_hapc": {
+    "description": "Alaska Habitat Areas of Particular Concern — Coral and Sponge Ecosystems",
+    "notes": "The Aleutian Islands coral and sponge gardens are among the most biologically diverse deep-sea ecosystems in the world. They were heavily damaged by bottom trawling before restrictions were implemented in 2006.",
+    "protection_year": 2006,
+    "protected_area_sq_km": 280000,
+    "coral_species_present": ["Bubblegum coral (Paragorgia arborea)", "Bamboo coral (Keratoisis spp.)", "Cup corals (Caryophyllia spp.)", "Primnoid sea fans"],
+    "age_of_coral_colonies": "Some Aleutian bamboo corals are estimated at 1,800-3,000 years old",
+    "recovery_timeline_after_trawl_damage": "150-1,000+ years for colony recovery",
+    "source": "NOAA AFSC deep-sea coral research: https://www.fisheries.noaa.gov/alaska/habitat-conservation/alaska-deep-sea-coral-sponge-research"
+  }
+}

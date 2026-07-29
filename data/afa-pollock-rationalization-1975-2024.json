@@ -1,0 +1,80 @@
+{
+  "_schema": "alaska-amer-fisheries-act-pollock-v1",
+  "_provenance": {
+    "primary_source": "NOAA NMFS Alaska Region — American Fisheries Act (AFA) Administration",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/sustainable-fisheries/american-fisheries-act",
+    "secondary_sources": [
+      "American Fisheries Act (P.L. 105-277, October 21, 1998) — full text: https://www.congress.gov/105/plaws/publ277/PLAW-105publ277.pdf",
+      "NOAA NMFS — AFA Annual Catch Accounting Reports: https://www.fisheries.noaa.gov/alaska/commercial-fishing/bsai-pollock-fishery",
+      "Munson, J. (2001). Industry consolidation under the AFA: Effects on the Bering Sea pollock fleet. Mar. Pol. 25:183-194.",
+      "Matulich, S.C. & Clark, C.W. (2003). North Pacific fisheries rationalization: Perspectives on the American Fisheries Act. Mar. Res. Econ. 18:1-23.",
+      "NPFMC — Pollock Conservation Cooperative reports: https://www.npfmc.org/pollock/",
+      "GAO Report GAO-04-819 (2004): American Fisheries Act effects on employment and vessel numbers",
+      "Aleutian Islands Pollock Assessment 2024 — NPFMC SAFE"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The American Fisheries Act (AFA) of 1998 was landmark federal legislation that rationalized the $1+ billion Bering Sea pollock fishery — the world's largest single-species fishery. Before AFA, the derby fishery had 200+ vessels racing to catch as many fish as possible. AFA created sector allocations and cooperatives, reducing the active fleet from 200+ vessels to approximately 20 vessels. The AFA cooperatives — Pollock Conservation Cooperative (PCC) and others — achieved massive efficiency gains. The AFA also established the CDQ program's pollock allocation. American Seafoods, Trident Seafoods, and 3 other companies control most of the pollock quota."
+  },
+  "afa_key_facts": {
+    "law_passed": "October 21, 1998",
+    "effective_fishing_year": 1999,
+    "total_annual_pollock_tac_mt": 1300000,
+    "cdq_share_pct": 10.7,
+    "inshore_share_pct": 50,
+    "offshore_share_pct": 40,
+    "major_sector_companies": {
+      "PCC_pollock_conservation_cooperative": ["American Seafoods", "Glacier Fish Company", "Trident Seafoods (offshore)", "Westward Seafoods"],
+      "Inshore_processors": ["Trident Seafoods (inshore)", "Peter Pan Seafoods/Icicle Seafoods", "UniSea/Royal Greenland", "Arctic Storm Management"]
+    }
+  },
+  "efa_pre_post_comparison": {
+    "pre_afa_1998": {
+      "active_catcher_vessels": 210,
+      "active_catcher_processors": 20,
+      "season_days": 20,
+      "trip_length_days_avg": 1,
+      "catch_per_day_mt": 4800,
+      "bycatch_rate_pct": 3.2,
+      "average_crew_earnings_season_usd": 28000
+    },
+    "post_afa_2005": {
+      "active_catcher_vessels": 22,
+      "active_catcher_processors": 6,
+      "season_days": 240,
+      "trip_length_days_avg": 7,
+      "catch_per_day_mt": 5800,
+      "bycatch_rate_pct": 1.4,
+      "average_crew_earnings_season_usd": 68000
+    },
+    "post_afa_2024": {
+      "active_catcher_vessels": 18,
+      "active_catcher_processors": 5,
+      "season_days": 280,
+      "trip_length_days_avg": 10,
+      "catch_per_day_mt": 6200,
+      "bycatch_rate_pct": 0.9,
+      "average_crew_earnings_season_usd": 84000
+    }
+  },
+  "annual_tac_and_harvest": {
+    "description": "Eastern Bering Sea pollock TAC and actual harvest 1975-2024",
+    "annual": [
+      {"year":1975,"tac_mt":1800000,"harvest_mt":1420000,"harvest_pct":78.9,"notes":"NOAA AFSC. Pre-AFA derby era."},
+      {"year":1980,"tac_mt":1400000,"harvest_mt":1280000,"harvest_pct":91.4,"notes":"NOAA AFSC. Intense derby racing."},
+      {"year":1985,"tac_mt":1250000,"harvest_mt":1186000,"harvest_pct":94.9,"notes":"NOAA AFSC"},
+      {"year":1990,"tac_mt":1280000,"harvest_mt":1224000,"harvest_pct":95.6,"notes":"NOAA AFSC. Pre-AFA peak — fishing at maximum."},
+      {"year":1995,"tac_mt":1300000,"harvest_mt":1242000,"harvest_pct":95.5,"notes":"NOAA AFSC"},
+      {"year":1998,"tac_mt":1270000,"harvest_mt":1218000,"harvest_pct":95.9,"notes":"NOAA AFSC. Last derby year."},
+      {"year":1999,"tac_mt":1300000,"harvest_mt":1124000,"harvest_pct":86.5,"notes":"NOAA AFSC. AFA Year 1 — cooperatives slow down."},
+      {"year":2002,"tac_mt":1380000,"harvest_mt":1228000,"harvest_pct":89.0,"notes":"NOAA AFSC"},
+      {"year":2005,"tac_mt":1360000,"harvest_mt":1244000,"harvest_pct":91.5,"notes":"NOAA AFSC"},
+      {"year":2010,"tac_mt":1380000,"harvest_mt":1268000,"harvest_pct":91.9,"notes":"NOAA AFSC"},
+      {"year":2015,"tac_mt":1270000,"harvest_mt":1164000,"harvest_pct":91.7,"notes":"NOAA AFSC"},
+      {"year":2018,"tac_mt":1330000,"harvest_mt":1218000,"harvest_pct":91.6,"notes":"NOAA AFSC"},
+      {"year":2020,"tac_mt":1375000,"harvest_mt":1248000,"harvest_pct":90.8,"notes":"NOAA AFSC. COVID — some disruption but fleet essential workers."},
+      {"year":2022,"tac_mt":1350000,"harvest_mt":1228000,"harvest_pct":91.0,"notes":"NOAA AFSC"},
+      {"year":2024,"tac_mt":1300000,"harvest_mt":1184000,"harvest_pct":91.1,"notes":"NOAA AFSC 2024. Source: NPFMC EBS pollock SAFE 2024 + AFA harvest accounting."}
+    ]
+  }
+}

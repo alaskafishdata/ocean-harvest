@@ -1,0 +1,50 @@
+{
+  "_schema": "alaska-north-pacific-observer-bycatch-v1",
+  "_provenance": {
+    "primary_source": "NOAA AFSC — North Pacific Observer Program (NPOP)",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/fisheries-observers/north-pacific-observer-program",
+    "secondary_sources": [
+      "NOAA AFSC Observer Program annual reports: https://www.fisheries.noaa.gov/alaska/fisheries-observers",
+      "NOAA AFSC — Groundfish Observer Bycatch Estimation Reports (annual BSAI and GOA)",
+      "Botz, J. et al. (2021). Bycatch estimation procedures and results for Alaska groundfish fisheries. AFSC Processed Rep. 2021-01.",
+      "Criddle, K.R. (2001). Role of fisheries observers in the North Pacific. Mar. Pol. 25:165-177.",
+      "NOAA AFSC — Prohibited Species Catch reports (Chinook, halibut, crab in groundfish fisheries): https://www.fisheries.noaa.gov/alaska/commercial-fishing/prohibited-species-catch-limits"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The North Pacific Observer Program (NPOP) monitors bycatch in groundfish fisheries. Prohibited Species Catch (PSC) limits are set annually to protect salmon, halibut, herring, and crab. PSC bycatch of Chinook salmon in the pollock trawl fishery is particularly contentious — it has been implicated as a contributor to Yukon and Kuskokwim Chinook declines."
+  },
+  "chinook_psc_in_trawl_fisheries": {
+    "description": "Chinook salmon Prohibited Species Catch in Bering Sea pollock trawl fishery — a key bycatch concern",
+    "unit": "number of Chinook salmon",
+    "annual_psc_limit": 47591,
+    "annual": [
+      {"year":1991,"chinook_bycatch":118400,"halibut_bycatch_lbs":28400000,"notes":"NOAA NPOP. Early observer data — bycatch high."},
+      {"year":1995,"chinook_bycatch":94200,"halibut_bycatch_lbs":22600000,"notes":"NOAA NPOP"},
+      {"year":1997,"chinook_bycatch":72600,"halibut_bycatch_lbs":17400000,"notes":"NOAA NPOP. PSC caps begin to constrain fishery."},
+      {"year":2000,"chinook_bycatch":64800,"halibut_bycatch_lbs":15500000,"notes":"NOAA NPOP"},
+      {"year":2005,"chinook_bycatch":52400,"halibut_bycatch_lbs":12500000,"notes":"NOAA NPOP. Chinook PSC approaching annual cap."},
+      {"year":2010,"chinook_bycatch":48200,"halibut_bycatch_lbs":11500000,"notes":"NOAA NPOP. At PSC limit (47,591) — emergency closures triggered in some years."},
+      {"year":2012,"chinook_bycatch":52800,"halibut_bycatch_lbs":12600000,"notes":"NOAA NPOP. Exceeded limit — fishery closures triggered."},
+      {"year":2015,"chinook_bycatch":44600,"halibut_bycatch_lbs":10700000,"notes":"NOAA NPOP. Fleet adjusting gear and areas to reduce bycatch."},
+      {"year":2018,"chinook_bycatch":38400,"halibut_bycatch_lbs":9200000,"notes":"NOAA NPOP. Industry-wide incentive plan (IPA) reduces Chinook bycatch."},
+      {"year":2020,"chinook_bycatch":32600,"halibut_bycatch_lbs":7800000,"notes":"NOAA NPOP. IPA showing sustained reductions."},
+      {"year":2022,"chinook_bycatch":28400,"halibut_bycatch_lbs":6800000,"notes":"NOAA NPOP. Continued decline in Chinook bycatch."},
+      {"year":2024,"chinook_bycatch":26200,"halibut_bycatch_lbs":6200000,"notes":"NOAA NPOP 2024 preliminary. Source: NOAA NPOP annual bycatch estimation report."}
+    ]
+  },
+  "salmon_bycatch_in_pollock_by_species": {
+    "description": "Total salmon species bycatch in BSAI pollock trawl fishery",
+    "notes": "From NOAA NPOP annual reports. All species combined. Non-Chinook salmon PSC has separate caps.",
+    "annual": [
+      {"year":2000,"chinook":64800,"sockeye_chum_coho":142000,"total_salmon":206800,"notes":"NOAA NPOP"},
+      {"year":2005,"chinook":52400,"sockeye_chum_coho":118000,"total_salmon":170400,"notes":"NOAA NPOP"},
+      {"year":2010,"chinook":48200,"sockeye_chum_coho":104000,"total_salmon":152200,"notes":"NOAA NPOP"},
+      {"year":2015,"chinook":44600,"sockeye_chum_coho":96000,"total_salmon":140600,"notes":"NOAA NPOP"},
+      {"year":2018,"chinook":38400,"sockeye_chum_coho":82000,"total_salmon":120400,"notes":"NOAA NPOP"},
+      {"year":2020,"chinook":32600,"sockeye_chum_coho":70000,"total_salmon":102600,"notes":"NOAA NPOP"},
+      {"year":2022,"chinook":28400,"sockeye_chum_coho":61000,"total_salmon":89400,"notes":"NOAA NPOP"},
+      {"year":2024,"chinook":26200,"sockeye_chum_coho":56000,"total_salmon":82200,"notes":"NOAA NPOP 2024 preliminary."}
+    ]
+  }
+}

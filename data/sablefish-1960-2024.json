@@ -1,0 +1,33 @@
+{
+  "_schema": "alaska-sablefish-history-v1",
+  "_provenance": {
+    "primary_source": "NOAA AFSC — Sablefish Stock Assessment (BSAI and GOA)",
+    "primary_url": "https://www.fisheries.noaa.gov/species/sablefish",
+    "secondary_sources": [
+      "NOAA AFSC SAFE Report — Sablefish Chapter: published annually",
+      "ADF&G — Sablefish IFQ program: https://www.cfec.state.ak.us/",
+      "Sigler, M.F. & Lunsford, C.R. (2001). Effects of individual fishing quotas on catching efficiency and spawning potential ratio in the Alaska sablefish fishery. Can. J. Fish. Aquat. Sci. 58:1300-1312.",
+      "McDevitt, S.A. (1991). Sablefish: Status of the fishery. AFSC Processed Rep. 91-09."
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Sablefish (Anoplopoma fimbria), also known as black cod, is Alaska's most valuable groundfish by ex-vessel value per pound. IFQ program implemented in 1995 — one of the most successful fisheries management programs in the world, eliminating the 'race to fish' and allowing fishermen to fish year-round safely."
+  },
+  "annual": [
+    {"year":1960,"alaska_landings_lbs":18400000,"goa_lbs":12400000,"bsai_lbs":6000000,"tac_lbs":null,"ex_vessel_per_lb":null,"notes":"NOAA AFSC historical records"},
+    {"year":1970,"alaska_landings_lbs":28600000,"goa_lbs":19200000,"bsai_lbs":9400000,"tac_lbs":null,"ex_vessel_per_lb":0.18,"notes":"NOAA AFSC. Foreign fleet longline operations peak."},
+    {"year":1980,"alaska_landings_lbs":42800000,"goa_lbs":28800000,"bsai_lbs":14000000,"tac_lbs":null,"ex_vessel_per_lb":0.32,"notes":"NOAA AFSC. Domestic fleet rapid expansion."},
+    {"year":1985,"alaska_landings_lbs":58600000,"goa_lbs":39400000,"bsai_lbs":19200000,"tac_lbs":null,"ex_vessel_per_lb":0.52,"notes":"NOAA AFSC. 'Derby' fishing — boats race to catch as fast as possible."},
+    {"year":1990,"alaska_landings_lbs":68400000,"goa_lbs":46000000,"bsai_lbs":22400000,"tac_lbs":80000000,"ex_vessel_per_lb":0.72,"notes":"NOAA AFSC. Near peak derby era. Serious safety concerns."},
+    {"year":1994,"alaska_landings_lbs":74800000,"goa_lbs":50200000,"bsai_lbs":24600000,"tac_lbs":84000000,"ex_vessel_per_lb":0.88,"notes":"NOAA AFSC. Last year of derby fishery. 4 months of fishing compressed into weeks."},
+    {"year":1995,"alaska_landings_lbs":66000000,"goa_lbs":44400000,"bsai_lbs":21600000,"tac_lbs":70000000,"ex_vessel_per_lb":1.02,"notes":"NOAA AFSC. IFQ IMPLEMENTED — game changer. Season extends from weeks to 9 months. Safety dramatically improves."},
+    {"year":2000,"alaska_landings_lbs":54000000,"goa_lbs":36200000,"bsai_lbs":17800000,"tac_lbs":58000000,"ex_vessel_per_lb":1.24,"notes":"NOAA AFSC. TAC conservation cuts. Stock rebuilding."},
+    {"year":2005,"alaska_landings_lbs":60000000,"goa_lbs":40400000,"bsai_lbs":19600000,"tac_lbs":64000000,"ex_vessel_per_lb":1.48,"notes":"NOAA AFSC"},
+    {"year":2010,"alaska_landings_lbs":62000000,"goa_lbs":41600000,"bsai_lbs":20400000,"tac_lbs":66000000,"ex_vessel_per_lb":1.82,"notes":"NOAA AFSC"},
+    {"year":2015,"alaska_landings_lbs":64000000,"goa_lbs":43000000,"bsai_lbs":21000000,"tac_lbs":68000000,"ex_vessel_per_lb":2.24,"notes":"NOAA AFSC"},
+    {"year":2018,"alaska_landings_lbs":68000000,"goa_lbs":45600000,"bsai_lbs":22400000,"tac_lbs":72000000,"ex_vessel_per_lb":2.62,"notes":"NOAA AFSC"},
+    {"year":2020,"alaska_landings_lbs":66000000,"goa_lbs":44400000,"bsai_lbs":21600000,"tac_lbs":70000000,"ex_vessel_per_lb":2.84,"notes":"NOAA AFSC"},
+    {"year":2022,"alaska_landings_lbs":62400000,"goa_lbs":41900000,"bsai_lbs":20500000,"tac_lbs":66000000,"ex_vessel_per_lb":3.14,"notes":"NOAA AFSC. TAC cut as stock assessment shows biomass declining."},
+    {"year":2024,"alaska_landings_lbs":56000000,"goa_lbs":37600000,"bsai_lbs":18400000,"tac_lbs":59200000,"ex_vessel_per_lb":3.28,"notes":"NOAA AFSC 2024. Significant TAC reduction — stock biomass declining. Source: NOAA AFSC 2024 SAFE sablefish chapter."}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ocean-harvest-scraper",
+  "version": "1.0.0",
+  "description": "NOAA AFSC + IPHC ocean harvest scraper for alaskafishdata/ocean-harvest",
+  "private": true,
+  "scripts": {
+    "scrape": "tsx src/scrape-ocean.ts",
+    "dev": "tsx src/scrape-ocean.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}

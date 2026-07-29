@@ -1,0 +1,17 @@
+{
+  "_meta": {
+    "source": "NOAA AFSC + IPHC + ADF&G",
+    "generated": "2026-07-29T05:00:00Z",
+    "count": 8
+  },
+  "species": [
+    { "id": "pollock", "name": "Walleye Pollock", "tacMT": 1880000, "landedMT": 1088000, "season": "2024", "sourceUrl": "https://www.fisheries.noaa.gov/resource/data/groundfish-stock-assessment-alaska-pollock" },
+    { "id": "sablefish", "name": "Sablefish (Black Cod)", "tacMT": 32600, "landedMT": 31200, "season": "2024", "sourceUrl": "https://www.fisheries.noaa.gov/resource/data/groundfish-stock-assessment-sablefish" },
+    { "id": "pacificCod", "name": "Pacific Cod", "tacMT": 229000, "landedMT": 198000, "season": "2024", "sourceUrl": "https://www.fisheries.noaa.gov/resource/data/groundfish-stock-assessment-pacific-cod" },
+    { "id": "halibut", "name": "Pacific Halibut", "landedLbsThousands": 27500, "landedMT": 12474, "season": "2024", "sourceUrl": "https://www.iphc.int/data/time-series-datasets/" },
+    { "id": "kingCrab", "name": "Bristol Bay Red King Crab", "tacLbs": 2310000, "status": "Open — limited TAC", "season": "2024", "sourceUrl": "https://www.fisheries.noaa.gov/s3/2024-10/bristolbay-redkingcrabTAC-2024.pdf" },
+    { "id": "snowCrab", "name": "Bering Sea Snow Crab", "tacLbs": 33900000, "landedLbsThousands": 30100, "season": "2024", "sourceUrl": "https://www.fisheries.noaa.gov/alaska/population-assessments" },
+    { "id": "arrowtooth", "name": "Arrowtooth Flounder", "tacMT": 178000, "landedMT": 56000, "season": "2024", "sourceUrl": "https://www.fisheries.noaa.gov/resource/data/groundfish-stock-assessments-gulf-alaska" },
+    { "id": "herring", "name": "Pacific Herring", "landedLbsThousands": 82000, "season": "2024", "sourceUrl": "https://www.adfg.alaska.gov/index.cfm?adfg=herring.main" }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "_schema": "alaska-charter-halibut-v1",
+  "_provenance": {
+    "primary_source": "NOAA Fisheries Alaska Region & IPHC — Charter Halibut Catch Sharing Plan (CSP)",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/commercial-fishing/charter-halibut-management-alaska",
+    "secondary_sources": [
+      "North Pacific Fishery Management Council (NPFMC) Charter Halibut Management Measures",
+      "ADF&G Division of Sport Fish — Mandatory Charter Logbook Program"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The Pacific Halibut Catch Sharing Plan (CSP) allocates annual Pacific Halibut commercial IFQ and sport charter limits in IPHC Regulatory Areas 2C (Southeast Alaska) and 3A (Central Gulf of Alaska). Charter regulations include reverse bag limits (e.g., 1 fish under 28 inches or over 80 inches), day-of-week closures (no charter halibut fishing on Tuesdays or Wednesdays), and mandatory ADF&G guide logbooks."
+  },
+  "regulatory_areas": [
+    { "area": "2C (Southeast Alaska)", "charter_allocation_pct": 18.3, "commercial_allocation_pct": 81.7, "reverse_bag_limit": "1 fish <= 28 in or >= 80 in", "tuesday_wednesday_closure": "Active" },
+    { "area": "3A (Central GOA — Homer/Seward)", "charter_allocation_pct": 27.2, "commercial_allocation_pct": 72.8, "reverse_bag_limit": "2 fish (1 any size, 1 <= 28 in)", "tuesday_wednesday_closure": "Active" }
+  ],
+  "annual_charter_harvest_time_series": [
+    {"year": 2000, "area_2C_harvest_lbs_m": 3.04, "area_3A_harvest_lbs_m": 3.14, "total_charter_harvest_lbs_m": 6.18, "active_charter_vessels": 1280},
+    {"year": 2005, "area_2C_harvest_lbs_m": 2.52, "area_3A_harvest_lbs_m": 3.68, "total_charter_harvest_lbs_m": 6.20, "active_charter_vessels": 1420},
+    {"year": 2010, "area_2C_harvest_lbs_m": 1.09, "area_3A_harvest_lbs_m": 2.70, "total_charter_harvest_lbs_m": 3.79, "active_charter_vessels": 1150},
+    {"year": 2015, "area_2C_harvest_lbs_m": 0.81, "area_3A_harvest_lbs_m": 2.08, "total_charter_harvest_lbs_m": 2.89, "active_charter_vessels": 980},
+    {"year": 2020, "area_2C_harvest_lbs_m": 0.48, "area_3A_harvest_lbs_m": 1.42, "total_charter_harvest_lbs_m": 1.90, "active_charter_vessels": 820, "status": "COVID-19 Travel Impact"},
+    {"year": 2024, "area_2C_harvest_lbs_m": 0.74, "area_3A_harvest_lbs_m": 1.85, "total_charter_harvest_lbs_m": 2.59, "active_charter_vessels": 910}
+  ]
+}

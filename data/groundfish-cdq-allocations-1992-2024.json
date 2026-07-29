@@ -1,0 +1,39 @@
+{
+  "_schema": "alaska-groundfish-cdq-allocations-v1",
+  "_provenance": {
+    "primary_source": "NOAA Fisheries Alaska Region — CDQ Program Allocations & Annual Reports",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/commercial-fishing/community-development-quota-program-alaska",
+    "secondary_sources": [
+      "Western Alaska Community Development Association (WACDA)",
+      "NPFMC — CDQ Program Allocation Tables",
+      "Alaska CDQ Annual Economic Report — McDowell Group"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The CDQ Program was established in 1992 under the Magnuson-Stevens Act to provide 65 western Alaska communities a guaranteed share of Bering Sea groundfish, crab, and halibut TACs. Six nonprofit CDQ groups manage allocations for their member communities. Total CDQ allocations include 10.7% of all Bering Sea/Aleutian Islands (BSAI) groundfish, 10% of halibut (Area 4A-4E), and 7.5% of crab species. CDQ groups generated over $200M in revenue in 2023."
+  },
+  "cdq_groups": [
+    { "group": "BSFA — Bering Sea Fishermen's Association", "communities": 8, "primary_assets": "Pacific Salmon, Bering Sea Groundfish, Pollock fleet ownership" },
+    { "group": "CBSFA — Central Bering Sea Fishermen's Association", "communities": 4, "primary_assets": "Pollock, Pacific Cod, Crab allocations (St. George Island area)" },
+    { "group": "CVRF — Coastal Villages Region Fund", "communities": 20, "primary_assets": "Pollock surimi processor ownership, Cod IFQ, Salmon" },
+    { "group": "NSEDC — Norton Sound Economic Development Corp.", "communities": 15, "primary_assets": "Norton Sound Salmon, CDQ Pollock, Crab" },
+    { "group": "PSCDA — Pribilof Islands Community Development Association", "communities": 2, "primary_assets": "St. Paul & St. George Crab, Pollock allocations" },
+    { "group": "YDFDA — Yukon Delta Fisheries Development Association", "communities": 55, "primary_assets": "Kuskokwim Salmon, YK Delta CDQ Pollock shares" }
+  ],
+  "total_cdq_allocations_2024": {
+    "pollock_bsai_pct": 10.7,
+    "pacific_cod_bsai_pct": 10.7,
+    "flatfish_bsai_pct": 10.7,
+    "sablefish_bsai_pct": 10.7,
+    "halibut_area_4_pct": 10.0,
+    "king_crab_pct": 7.5,
+    "tanner_crab_pct": 7.5
+  },
+  "annual_cdq_revenue": [
+    {"year": 2010, "revenue_usd_m": 82},
+    {"year": 2015, "revenue_usd_m": 138},
+    {"year": 2020, "revenue_usd_m": 162},
+    {"year": 2022, "revenue_usd_m": 218},
+    {"year": 2024, "revenue_usd_m": 205}
+  ]
+}

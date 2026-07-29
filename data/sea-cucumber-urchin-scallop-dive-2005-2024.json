@@ -1,0 +1,47 @@
+{
+  "_schema": "alaska-sea-cucumber-urchin-dive-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Shellfish/Dive Fishery Annual Reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyareaGOA.shellfishDive",
+    "secondary_sources": [
+      "NPFMC Scallop/Dive Fisheries Plan",
+      "Southeast Alaska Regional Dive Fisheries Association (SARDFA)"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska's commercial dive fisheries target sea cucumbers (Apostichopus californicus, prized in Asian markets), red sea urchins (Mesocentrotus franciscanus), and weathervane scallops (Patinopectes caurinus). These high-value, low-volume fisheries are managed under limited entry with rotational area closures. Sea cucumbers export almost entirely to China and Hong Kong for beche-de-mer processing. Prices range from $0.35-1.20/lb ex-vessel depending on size and quality."
+  },
+  "fishery_series": [
+    {
+      "species": "Red Sea Urchin",
+      "primary_region": "Southeast Alaska (Area E)",
+      "limited_entry": true,
+      "avg_annual_harvest_lbs": 820000,
+      "primary_product": "Fresh/Live roe (uni) — Tokyo/Osaka direct-air",
+      "exvessel_per_lb_2024": 0.42
+    },
+    {
+      "species": "Sea Cucumber",
+      "primary_region": "Southeast Alaska & Prince William Sound",
+      "limited_entry": true,
+      "avg_annual_harvest_lbs": 4800000,
+      "primary_product": "Beche-de-mer (dried) — Hong Kong/China export",
+      "exvessel_per_lb_2024": 0.88
+    },
+    {
+      "species": "Weathervane Scallop",
+      "primary_region": "Gulf of Alaska / Bering Sea",
+      "limited_entry": true,
+      "avg_annual_harvest_lbs": 1200000,
+      "primary_product": "Fresh/Frozen scallop adductor — US restaurant",
+      "exvessel_per_lb_2024": 8.40
+    }
+  ],
+  "annual_statewide_harvest_value_usd_m": [
+    {"year": 2005, "value": 18.4},
+    {"year": 2010, "value": 22.8},
+    {"year": 2015, "value": 28.4},
+    {"year": 2020, "value": 24.2},
+    {"year": 2024, "value": 30.8}
+  ]
+}

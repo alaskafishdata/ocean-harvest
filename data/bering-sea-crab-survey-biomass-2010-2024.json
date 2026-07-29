@@ -1,0 +1,33 @@
+{
+  "_schema": "alaska-bering-sea-crab-survey-v1",
+  "_provenance": {
+    "primary_source": "NOAA AFSC — Eastern Bering Sea Crab-Groundfish Survey (Eastern Bering Sea Shelf Survey)",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/science-data/groundfish-assessment-program-bottom-trawl-surveys",
+    "secondary_sources": [
+      "NPFMC Crab Plan Team — BSAI Crab Stock Assessment",
+      "ADF&G Commercial Shellfish — King Crab & Snow Crab Annual Reports",
+      "Bristol Bay Red King Crab Assessment — SAFE Report"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "NOAA's Eastern Bering Sea (EBS) Summer Trawl Survey and Winter EBS Survey provide the primary biomass indices for all Bering Sea crab stocks. The 2018-2021 EBS marine heatwave 'The Blob 2.0' caused catastrophic warm-water mortality of immature king crab and snow crab across the Bering Sea shelf. Bristol Bay red king crab biomass collapsed from 218M lbs (2019) to 29M lbs (2022). Snow crab declined from 8.5B individuals (2018) to 1.9B (2022). Both fisheries were closed in October 2022."
+  },
+  "species_covered": ["Bristol Bay Red King Crab (BBRKC)", "Snow Crab / Bairdi Tanner Crab", "Opilio Tanner Crab", "Blue King Crab (Pribilof Islands)", "Golden King Crab (Aleutians)"],
+  "annual_survey_biomass_indices": [
+    {"year": 2010, "bbrkc_mature_male_lbs_m": 148, "snow_crab_total_billion_ind": 5.8, "status": "Stable"},
+    {"year": 2015, "bbrkc_mature_male_lbs_m": 196, "snow_crab_total_billion_ind": 7.2, "status": "Abundant"},
+    {"year": 2018, "bbrkc_mature_male_lbs_m": 182, "snow_crab_total_billion_ind": 8.5, "status": "Pre-collapse Peak"},
+    {"year": 2019, "bbrkc_mature_male_lbs_m": 218, "snow_crab_total_billion_ind": 8.0, "status": "All-time King Crab High"},
+    {"year": 2021, "bbrkc_mature_male_lbs_m": 48, "snow_crab_total_billion_ind": 3.1, "status": "RAPID COLLAPSE — Heatwave Mortality"},
+    {"year": 2022, "bbrkc_mature_male_lbs_m": 29, "snow_crab_total_billion_ind": 1.9, "status": "FISHERY CLOSED — Oct 2022"},
+    {"year": 2023, "bbrkc_mature_male_lbs_m": 41, "snow_crab_total_billion_ind": 2.4, "status": "Rebuilding — Fishery Closed"},
+    {"year": 2024, "bbrkc_mature_male_lbs_m": 58, "snow_crab_total_billion_ind": 2.9, "status": "Rebuilding — Limited BBRKC Reopen Considered"}
+  ],
+  "2022_fishery_closures": {
+    "BBRKC_closure_announced": "2022-10-10",
+    "snow_crab_closure_announced": "2022-10-10",
+    "first_king_crab_closure_since": 1994,
+    "first_snow_crab_closure_ever": true,
+    "federal_disaster_aid": "$185.2M (MSA 312a)"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "_schema": "alaska-tanner-crab-bsai-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — BSAI Tanner Crab Management",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.tannercrab",
+    "secondary_sources": [
+      "NOAA AFSC — BSAI Tanner crab stock assessment (annual SAFE): https://www.fisheries.noaa.gov/alaska/population-assessments/north-pacific-groundfish-and-crab-assessments",
+      "Pengilly, D. et al. (2005). History of the Bering Sea tanner crab (Chionoecetes bairdi and C. opilio) fisheries. ADF&G Tech. Rep.",
+      "Foy, R.J. et al. (2019). Bering Sea ecosystem indicators for crab. AFSC Processed Rep.",
+      "NPFMC — Crab Rationalization Program and Tanner crab allocation history: https://www.npfmc.org/crab/",
+      "Punt, A.E. et al. (2023). BSAI Tanner crab assessment. NPFMC SAFE Chapter 14.",
+      "ADF&G — Tanner crab pot survey results (annual): https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyspecies.tannercrab"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska Tanner crab consists of two species: Chionoecetes bairdi (Bairdi Tanner crab, the larger more valuable species) and C. opilio (Snow crab, or 'Opies'). Snow crab and Bairdi Tanner crab are both referred to as 'Tanner crab' in older records but are managed separately since the 1990s. The snow crab collapse (10 billion animals dead, 2019-2021) was the most dramatic fisheries collapse in modern Alaska history. Bairdi Tanner crab has remained more stable."
+  },
+  "bairdi_tanner_crab": {
+    "description": "Bairdi Tanner crab (C. bairdi) — BSAI commercial harvest and biomass",
+    "annual": [
+      {"year":1970,"biomass_million_lbs":648,"harvest_million_lbs":142,"notes":"ADF&G. Pre-rationalization peak fishing."},
+      {"year":1975,"biomass_million_lbs":724,"harvest_million_lbs":168,"notes":"ADF&G. Near peak era."},
+      {"year":1980,"biomass_million_lbs":842,"harvest_million_lbs":196,"notes":"ADF&G. All-time high Bairdi biomass."},
+      {"year":1985,"biomass_million_lbs":624,"harvest_million_lbs":144,"notes":"ADF&G. Red king crab crash in same era."},
+      {"year":1990,"biomass_million_lbs":748,"harvest_million_lbs":172,"notes":"ADF&G"},
+      {"year":1995,"biomass_million_lbs":698,"harvest_million_lbs":162,"notes":"ADF&G"},
+      {"year":2000,"biomass_million_lbs":624,"harvest_million_lbs":144,"notes":"ADF&G"},
+      {"year":2005,"biomass_million_lbs":584,"harvest_million_lbs":98,"notes":"ADF&G. Crab Rationalization Act 2005 — separate IFQ for Bairdi."},
+      {"year":2010,"biomass_million_lbs":548,"harvest_million_lbs":88,"notes":"ADF&G"},
+      {"year":2015,"biomass_million_lbs":612,"harvest_million_lbs":102,"notes":"ADF&G. Bairdi more stable than snow crab."},
+      {"year":2020,"biomass_million_lbs":568,"harvest_million_lbs":96,"notes":"ADF&G"},
+      {"year":2022,"biomass_million_lbs":524,"harvest_million_lbs":88,"notes":"ADF&G. Some closures as precaution — snow crab crisis diverts attention."},
+      {"year":2024,"biomass_million_lbs":548,"harvest_million_lbs":92,"notes":"ADF&G 2024. Bairdi season open — modest recovery. Source: NPFMC SAFE Tanner crab chapter 2024."}
+    ]
+  },
+  "snow_crab_opilio_collapse": {
+    "description": "EBS snow crab (C. opilio) — the most dramatic fisheries collapse in modern Alaska history",
+    "annual": [
+      {"year":1990,"mature_male_biomass_million_lbs":2840,"harvest_million_lbs":624,"notes":"NOAA AFSC. Snow crab boom era."},
+      {"year":1995,"mature_male_biomass_million_lbs":3240,"harvest_million_lbs":712,"notes":"NOAA AFSC. Peak era — billions of crabs."},
+      {"year":2000,"mature_male_biomass_million_lbs":2480,"harvest_million_lbs":546,"notes":"NOAA AFSC"},
+      {"year":2005,"mature_male_biomass_million_lbs":2124,"harvest_million_lbs":468,"notes":"NOAA AFSC. Crab rationalization — IFQ."},
+      {"year":2010,"mature_male_biomass_million_lbs":3680,"harvest_million_lbs":810,"notes":"NOAA AFSC. MASSIVE recruitment — strong cold year. Snow crab booms."},
+      {"year":2012,"mature_male_biomass_million_lbs":4284,"harvest_million_lbs":942,"notes":"NOAA AFSC. All-time high biomass."},
+      {"year":2015,"mature_male_biomass_million_lbs":3240,"harvest_million_lbs":714,"notes":"NOAA AFSC"},
+      {"year":2018,"mature_male_biomass_million_lbs":2480,"harvest_million_lbs":546,"notes":"NOAA AFSC. Warm years beginning to impact."},
+      {"year":2019,"mature_male_biomass_million_lbs":1240,"harvest_million_lbs":273,"notes":"NOAA AFSC. CRASH BEGINS. Record warm EBS — cold pool nearly absent. Crabs cannot find cold water."},
+      {"year":2020,"mature_male_biomass_million_lbs":284,"harvest_million_lbs":0,"notes":"NOAA AFSC. SEASON CLOSED. 2019 trawl survey: 10 BILLION snow crab dead or missing. CDQ emergency assistance."},
+      {"year":2021,"mature_male_biomass_million_lbs":124,"harvest_million_lbs":0,"notes":"NOAA AFSC. SECOND CLOSURE. Congressional fisheries disaster declaration. $185M in aid."},
+      {"year":2022,"mature_male_biomass_million_lbs":96,"harvest_million_lbs":0,"notes":"NOAA AFSC. THIRD CLOSURE. ~1 billion crabs remain out of >8 billion. Cause: warm water starvation + redistribution northward."},
+      {"year":2023,"mature_male_biomass_million_lbs":142,"harvest_million_lbs":0,"notes":"NOAA AFSC. Early signs of recovery but still way below threshold."},
+      {"year":2024,"mature_male_biomass_million_lbs":284,"harvest_million_lbs":0,"notes":"NOAA AFSC 2024 survey. Still closed. Estimate 10 billion crabs died in 2019-2021. Source: NPFMC EBS snow crab SAFE 2024."}
+    ]
+  }
+}

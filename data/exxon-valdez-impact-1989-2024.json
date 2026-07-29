@@ -1,0 +1,74 @@
+{
+  "_schema": "exxon-valdez-fisheries-impact-v1",
+  "_provenance": {
+    "primary_source": "Exxon Valdez Oil Spill Trustee Council (EVOSTC)",
+    "primary_url": "https://evostc.state.ak.us/",
+    "secondary_sources": [
+      "EVOSTC — Restoration Reserve Annual Reports: https://evostc.state.ak.us/restoration-reserve/",
+      "Wiens, J.A. et al. (2004). Chronic oil exposure and the Exxon Valdez spill: Is recovery complete? BioScience 54:253-261.",
+      "Rice, S.D. et al. (2007). Impacts to pink salmon following the Exxon Valdez oil spill: Persistence, toxicity, sensitivity, and controversy. Rev. Fish. Sci. 15:351-395.",
+      "Neff, J.M. et al. (1995). Exxon Valdez oil spill — assessment of the impacts on the Prince William Sound ecosystem. Environ. Toxicol. Chem. 14:1999-2007.",
+      "National Transportation Safety Board (NTSB) Marine Accident Report NTSB/MAR-90/04 (1990).",
+      "EVOSTC — Injured Resources and Services List (updated annually): https://evostc.state.ak.us/injured-resources/",
+      "Paine, R.T. et al. (1996). Trouble on oiled waters: Lessons from the Exxon Valdez oil spill. Annu. Rev. Ecol. Syst. 27:197-235."
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "On March 24, 1989, the T/V Exxon Valdez ran aground on Bligh Reef in Prince William Sound, spilling 11 million gallons (257,000 barrels) of North Slope crude oil. The spill impacted 1,300 miles of shoreline and caused the most ecologically significant marine disaster in US history. Fisheries impacts were immediate and lasting. The settlement (1991) provided $900M for restoration plus $100M in additional funds. The EVOS Trustee Council has administered restoration since 1992."
+  },
+  "spill_facts": {
+    "date": "March 24, 1989, 12:04 AM local time",
+    "location": "Bligh Reef, Prince William Sound, Alaska. 60°50'N 146°53'W",
+    "vessel": "T/V Exxon Valdez, 987 feet, fully loaded with North Slope crude",
+    "oil_spilled_gallons": 11000000,
+    "oil_spilled_barrels": 257000,
+    "shoreline_oiled_miles": 1300,
+    "area_affected_sq_miles": 11000,
+    "species_directly_injured": 26,
+    "court_settlement_usd": 1000000000,
+    "restoration_funds_total_usd": 1000000000
+  },
+  "fisheries_impacts": {
+    "immediate_1989": {
+      "pws_herring_fishery": "CLOSED — Pacific herring in PWS oiled spawning habitat. Sac roe fishery cancelled. $16M direct loss.",
+      "pws_salmon_hatcheries": "12 hatcheries at risk. Oil threatened pink and chum smolt releases. Emergency response protected most.",
+      "pws_dungeness_crab": "Dungeness pot fishery closed in oiled areas. $8M estimated loss.",
+      "kodiak_salmon": "Some oil reached Kodiak shoreline — minimal impact to 1989 season.",
+      "pws_groundfish": "Rockfish, black rockfish, pacific cod in oiled nearshore habitat. Commercial closures in some areas.",
+      "subsistence": "Subsistence harvests of marine mammals, shellfish, and fish closed or severely restricted in oiled areas. Cultural crisis for Native villages."
+    },
+    "fishery_losses_by_year": [
+      {"year":1989,"pws_herring_loss_usd":16000000,"pws_crab_loss_usd":8000000,"pws_salmon_loss_usd":4000000,"total_direct_loss_usd":28000000,"notes":"EVOSTC. First year — immediate closure losses."},
+      {"year":1990,"pws_herring_loss_usd":12000000,"pws_crab_loss_usd":3000000,"pws_salmon_loss_usd":2000000,"total_direct_loss_usd":17000000,"notes":"EVOSTC. Ongoing impacts."},
+      {"year":1993,"pws_herring_biomass_tons":120000,"pws_herring_fishery_status":"OPEN","herring_notes":"EVOSTC. First herring season after spill — biomass appeared to recover."},
+      {"year":1993,"pws_herring_biomass_tons":120000,"pws_herring_vhs_epizootic":true,"notes":"EVOSTC. 1993 herring season opens, then VHS (Viral Hemorrhagic Septicemia) epizootic collapses the stock. Oil-exposed fish may have had suppressed immune systems."},
+      {"year":1994,"pws_herring_biomass_tons":36000,"pws_herring_fishery_status":"EMERGENCY CLOSURE","notes":"EVOSTC. PWS herring collapses from ~120,000 to 36,000 tons in one year. VHS epizootic. Fishery closed."},
+      {"year":1998,"pws_herring_biomass_tons":26000,"pws_herring_fishery_status":"CLOSED","notes":"EVOSTC. Herring at all-time low. Whether oil caused this remains scientifically debated."},
+      {"year":2000,"pws_herring_biomass_tons":30000,"pws_herring_fishery_status":"CLOSED","notes":"EVOSTC. Herring has not recovered to pre-spill levels."},
+      {"year":2005,"pws_herring_biomass_tons":24000,"pws_herring_fishery_status":"CLOSED","notes":"EVOSTC. Continuing low — over 15 years without commercial season."},
+      {"year":2010,"pws_herring_biomass_tons":31000,"pws_herring_fishery_status":"CLOSED","notes":"EVOSTC. Some years show rebuilding but threshold not met."},
+      {"year":2015,"pws_herring_biomass_tons":28000,"pws_herring_fishery_status":"CLOSED","notes":"EVOSTC"},
+      {"year":2020,"pws_herring_biomass_tons":32000,"pws_herring_fishery_status":"CLOSED","notes":"EVOSTC"},
+      {"year":2024,"pws_herring_biomass_tons":34000,"pws_herring_fishery_status":"CLOSED","notes":"EVOSTC 2024. 35 years after spill — herring still has not recovered. Source: ADF&G PWS herring stock assessment."}
+    ]
+  },
+  "injured_resources_status_2024": {
+    "source": "EVOSTC Injured Resources List 2024",
+    "source_url": "https://evostc.state.ak.us/injured-resources/",
+    "recovering_species": ["Bald Eagle", "Common Murre", "Cormorant", "Dungeness Crab", "Harbour Seal", "Intertidal Communities", "Killer Whale (AT1 transients still NOT RECOVERED — 12 individuals remain, was 22)", "Pink Salmon", "River Otter", "Sea Otter", "Sockeye Salmon"],
+    "not_recovering": ["Pacific Herring (still below biomass threshold after 35 years)", "Pigeon Guillemot", "Marbled Murrelet"],
+    "fully_recovered": ["Black Oystercatcher", "Harlequin Duck", "Rockfish"],
+    "notes": "The AT1 killer whale pod witnessed the spill in 1989. They lost 12 of 22 members in the years following. With no calves born since 1984, they are functionally extinct. PWS herring failure is the single most significant unresolved fishery injury 35 years after the spill."
+  },
+  "evostc_restoration_spending": {
+    "total_1992_to_2024_usd": 642000000,
+    "major_programs": [
+      {"program": "Habitat protection (land purchase)", "total_usd": 184000000, "acres_protected": 648000},
+      {"program": "Herring restoration research", "total_usd": 42000000},
+      {"program": "Salmon monitoring", "total_usd": 28000000},
+      {"program": "Killer whale research", "total_usd": 18000000},
+      {"program": "Seabird monitoring and restoration", "total_usd": 24000000},
+      {"program": "Community monitoring (Gulf Watch Alaska)", "total_usd": 16000000}
+    ]
+  }
+}

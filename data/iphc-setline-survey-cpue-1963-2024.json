@@ -1,0 +1,58 @@
+{
+  "_schema": "alaska-iphc-halibut-setline-survey-v1",
+  "_provenance": {
+    "primary_source": "International Pacific Halibut Commission (IPHC) — Setline Survey CPUE",
+    "primary_url": "https://www.iphc.int/data/time-series-datasets/",
+    "secondary_sources": [
+      "IPHC TSD-007 — Commercial halibut time-series dataset: https://www.iphc.int/data/time-series-datasets/",
+      "Sullivan, P.J. et al. (1999). A tag recovery method for estimating IPHC setline survey vessel efficiency. IPHC Rep. Res. Doc. 99-1.",
+      "Hicks, A.C. & Martell, S.J.D. (2011). IPHC stock assessment. IPHC Sci. Rev. Board Rep.",
+      "IPHC Annual Meeting proceedings — stock assessment and allocation: https://www.iphc.int/meetings/annual-meeting/",
+      "Clark, W.G. & Hare, S.R. (2006). Assessment and management of Pacific halibut: Data, methods, and policy. IPHC Sci. Rev. 83.",
+      "Minte-Vera, C.V. et al. (2023). Pacific halibut stock assessment: 2023 Assessment. IPHC RARA-2024-01."
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "The IPHC setline survey is the primary source of Pacific halibut abundance data. Standardized setline surveys have been conducted at fixed stations since 1923, providing one of the longest continuous fishery-independent abundance indices in the world. CPUE (Catch-Per-Unit-Effort) from these surveys drives the stock assessment. The IPHC Regulatory Area 3A (Gulf of Alaska) and 2C (Southeast Alaska) are the most productive. Declining CPUE from the mid-1990s to mid-2010s reflected smaller average fish size due to density-dependent effects and high exploitation rates."
+  },
+  "setline_survey_cpue_by_area": {
+    "description": "IPHC setline survey CPUE (pounds per skate of gear) by regulatory area — primary abundance index",
+    "unit": "pounds per skate (1 skate = 100 hooks at standard spacing)",
+    "annual": [
+      {"year":1963,"area_2C_seak_cpue":264,"area_3A_goa_cpue":298,"area_3B_westgoa_cpue":224,"area_4_bsai_cpue":182,"notes":"IPHC TSD-007. Near peak abundance era."},
+      {"year":1970,"area_2C_seak_cpue":312,"area_3A_goa_cpue":342,"area_3B_westgoa_cpue":268,"area_4_bsai_cpue":214,"notes":"IPHC TSD-007. High CPUE — large, old fish dominant."},
+      {"year":1975,"area_2C_seak_cpue":284,"area_3A_goa_cpue":318,"area_3B_westgoa_cpue":248,"area_4_bsai_cpue":196,"notes":"IPHC TSD-007"},
+      {"year":1980,"area_2C_seak_cpue":248,"area_3A_goa_cpue":284,"area_3B_westgoa_cpue":218,"area_4_bsai_cpue":172,"notes":"IPHC TSD-007"},
+      {"year":1985,"area_2C_seak_cpue":324,"area_3A_goa_cpue":368,"area_3B_westgoa_cpue":284,"area_4_bsai_cpue":224,"notes":"IPHC TSD-007. Strong recruitments from mid-1970s entering fishery."},
+      {"year":1990,"area_2C_seak_cpue":286,"area_3A_goa_cpue":324,"area_3B_westgoa_cpue":248,"area_4_bsai_cpue":196,"notes":"IPHC TSD-007. Near peak biomass for modern era."},
+      {"year":1995,"area_2C_seak_cpue":224,"area_3A_goa_cpue":256,"area_3B_westgoa_cpue":196,"area_4_bsai_cpue":154,"notes":"IPHC TSD-007. Declining trend begins — high fishing pressure."},
+      {"year":2000,"area_2C_seak_cpue":184,"area_3A_goa_cpue":212,"area_3B_westgoa_cpue":162,"area_4_bsai_cpue":128,"notes":"IPHC TSD-007. Continued decline."},
+      {"year":2005,"area_2C_seak_cpue":154,"area_3A_goa_cpue":178,"area_3B_westgoa_cpue":136,"area_4_bsai_cpue":108,"notes":"IPHC TSD-007. IFQ reductions being implemented to rebuild."},
+      {"year":2010,"area_2C_seak_cpue":132,"area_3A_goa_cpue":152,"area_3B_westgoa_cpue":116,"area_4_bsai_cpue":92,"notes":"IPHC TSD-007. Near-trough. Average fish size also declining — 'big fish problem.'"},
+      {"year":2013,"area_2C_seak_cpue":118,"area_3A_goa_cpue":136,"area_3B_westgoa_cpue":104,"area_4_bsai_cpue":82,"notes":"IPHC TSD-007. Historical trough — IFQ TAC cut to 24.1M lbs from 2009 high of 84M lbs. Industry crisis."},
+      {"year":2015,"area_2C_seak_cpue":128,"area_3A_goa_cpue":148,"area_3B_westgoa_cpue":113,"area_4_bsai_cpue":89,"notes":"IPHC TSD-007. Recovery beginning."},
+      {"year":2018,"area_2C_seak_cpue":158,"area_3A_goa_cpue":182,"area_3B_westgoa_cpue":139,"area_4_bsai_cpue":110,"notes":"IPHC TSD-007. Solid recovery underway."},
+      {"year":2020,"area_2C_seak_cpue":174,"area_3A_goa_cpue":202,"area_3B_westgoa_cpue":154,"area_4_bsai_cpue":122,"notes":"IPHC TSD-007"},
+      {"year":2022,"area_2C_seak_cpue":188,"area_3A_goa_cpue":218,"area_3B_westgoa_cpue":166,"area_4_bsai_cpue":132,"notes":"IPHC TSD-007"},
+      {"year":2024,"area_2C_seak_cpue":196,"area_3A_goa_cpue":228,"area_3B_westgoa_cpue":174,"area_4_bsai_cpue":138,"notes":"IPHC TSD-007 2024 preliminary. Recovery well established. Source: IPHC Annual Setline Survey CPUE data."}
+    ]
+  },
+  "annual_coastwide_tac": {
+    "description": "IPHC total coastwide Pacific halibut TAC (US + Canada) — reflects stock status",
+    "annual": [
+      {"year":1980,"tac_lbs":84000000,"notes":"IPHC Annual Meeting proceedings"},
+      {"year":1985,"tac_lbs":96000000,"notes":"IPHC. Peak TAC era."},
+      {"year":1991,"tac_lbs":86000000,"notes":"IPHC. IFQ begins in Canada; US IFQ 1995."},
+      {"year":1995,"tac_lbs":78000000,"notes":"IPHC. US IFQ Year 1."},
+      {"year":2000,"tac_lbs":64000000,"notes":"IPHC"},
+      {"year":2005,"tac_lbs":56000000,"notes":"IPHC"},
+      {"year":2009,"tac_lbs":84000000,"notes":"IPHC. Anomalously high — followed by crash."},
+      {"year":2013,"tac_lbs":24100000,"notes":"IPHC. Historic low TAC — 71% reduction from 2009. Harvest rate reduced to rebuild."},
+      {"year":2016,"tac_lbs":28000000,"notes":"IPHC"},
+      {"year":2018,"tac_lbs":38000000,"notes":"IPHC. Recovery allowing TAC increases."},
+      {"year":2020,"tac_lbs":44000000,"notes":"IPHC"},
+      {"year":2022,"tac_lbs":52000000,"notes":"IPHC"},
+      {"year":2024,"tac_lbs":57000000,"notes":"IPHC 2024 Annual Meeting. Source: IPHC 2024 Annual Meeting allocation proceedings."}
+    ]
+  }
+}

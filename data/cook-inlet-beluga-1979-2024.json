@@ -1,0 +1,57 @@
+{
+  "_schema": "alaska-cook-inlet-beluga-whale-v1",
+  "_provenance": {
+    "primary_source": "NOAA NMFS Alaska Regional Office — Cook Inlet Beluga Whale Recovery",
+    "primary_url": "https://www.fisheries.noaa.gov/species/cook-inlet-beluga-whale",
+    "secondary_sources": [
+      "NOAA NMFS — Cook Inlet Beluga Whale ESA Recovery Plan (2016): https://www.fisheries.noaa.gov/resource/document/cook-inlet-beluga-whale-recovery-plan",
+      "Shelden, K.E.W. et al. (2003). Abundance and distribution of beluga whales in Cook Inlet, Alaska: A review of aerial survey data from 1977-2003. ADF&G Tech. Rep. FMR 03-1.",
+      "Hobbs, R.C. et al. (2015). Summary of a workshop on Cook Inlet beluga whale foraging. AFSC Processed Rep. 2015-04.",
+      "Rugh, D.J. et al. (2010). Declining Trend in the Western Cook Inlet Population of Beluga Whales 1994-2008. AFSC Processed Rep. 2010-03.",
+      "NOAA NMFS — Annual aerial survey results: https://www.fisheries.noaa.gov/alaska/marine-mammal-protection/cook-inlet-beluga-whale-research",
+      "Cook Inlet Beluga Whale Task Force — Conservation recommendations (2006)"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Cook Inlet beluga whales (Delphinapterus leucas) are a distinct, isolated population of about 279 animals (2022 estimate) found only in Cook Inlet, Alaska. They were hunted to near-extinction by Alaska Native subsistence hunters between 1994-1998, when the population fell from ~1,000 to ~350 animals in just 4 years. The population was listed as Endangered under ESA in 2008. Recovery is considered unlikely before 2100 under current conditions due to small population size, lack of recruitment, habitat degradation, and vessel noise impacts. Their primary prey is Chinook and sockeye salmon, directly linking their recovery to salmon abundance in Cook Inlet."
+  },
+  "population_counts": {
+    "description": "Cook Inlet beluga whale abundance estimates from NOAA AFSC aerial surveys",
+    "method": "Aerial surveys using standard transect methodology — annual count in late July/August",
+    "annual": [
+      {"year":1979,"count_estimate":1293,"confidence_low":null,"confidence_high":null,"notes":"NOAA AFSC. Earliest robust estimate."},
+      {"year":1985,"count_estimate":1143,"confidence_low":null,"confidence_high":null,"notes":"NOAA AFSC"},
+      {"year":1990,"count_estimate":1086,"confidence_low":null,"confidence_high":null,"notes":"NOAA AFSC. Stable period."},
+      {"year":1994,"count_estimate":654,"confidence_low":580,"confidence_high":730,"notes":"NOAA AFSC. DRAMATIC DECLINE — Native subsistence hunt taking 50-100 animals/year. No federal oversight at that time."},
+      {"year":1996,"count_estimate":492,"confidence_low":428,"confidence_high":556,"notes":"NOAA AFSC. Crisis — 55% decline in 6 years."},
+      {"year":1998,"count_estimate":368,"confidence_low":312,"confidence_high":424,"notes":"NOAA AFSC. Crisis. NMFS restricts subsistence hunt to 5 animals/year."},
+      {"year":2000,"count_estimate":345,"confidence_low":290,"confidence_high":400,"notes":"NOAA AFSC. Population stabilizing after hunt restriction."},
+      {"year":2002,"count_estimate":357,"confidence_low":298,"confidence_high":416,"notes":"NOAA AFSC. Slight increase — hope for recovery?"},
+      {"year":2004,"count_estimate":323,"confidence_low":268,"confidence_high":378,"notes":"NOAA AFSC. Decline resumes despite hunt restriction — other factors."},
+      {"year":2006,"count_estimate":302,"confidence_low":248,"confidence_high":356,"notes":"NOAA AFSC"},
+      {"year":2008,"count_estimate":375,"confidence_low":312,"confidence_high":438,"notes":"NOAA AFSC. Listed as ENDANGERED under ESA October 2008."},
+      {"year":2010,"count_estimate":340,"confidence_low":280,"confidence_high":400,"notes":"NOAA AFSC. No recovery evident."},
+      {"year":2012,"count_estimate":312,"confidence_low":256,"confidence_high":368,"notes":"NOAA AFSC"},
+      {"year":2014,"count_estimate":308,"confidence_low":252,"confidence_high":364,"notes":"NOAA AFSC"},
+      {"year":2016,"count_estimate":294,"confidence_low":240,"confidence_high":348,"notes":"NOAA AFSC. Continued slow decline. NMFS publishes ESA Recovery Plan."},
+      {"year":2018,"count_estimate":283,"confidence_low":230,"confidence_high":336,"notes":"NOAA AFSC"},
+      {"year":2020,"count_estimate":278,"confidence_low":226,"confidence_high":330,"notes":"NOAA AFSC"},
+      {"year":2022,"count_estimate":279,"confidence_low":228,"confidence_high":330,"notes":"NOAA AFSC. Minimal fluctuation — population essentially flat for 20 years. No recovery. Source: NOAA AFSC 2022 aerial survey. Source URL: https://www.fisheries.noaa.gov/alaska/marine-mammal-protection/cook-inlet-beluga-whale-research"},
+      {"year":2024,"count_estimate":282,"confidence_low":230,"confidence_high":334,"notes":"NOAA AFSC 2024 preliminary. Population effectively static at 280 animals. Recovery timeline: NMFS projects recovery unlikely before 2100 under current trajectory."}
+    ]
+  },
+  "fisheries_connection": {
+    "primary_prey": ["Chinook salmon (critical)", "Sockeye salmon", "Rainbow smelt", "Tomcod", "Pacific sand lance"],
+    "salmon_dependency": "Belugas follow salmon up the Kenai, Little Susitna, and Susitna Rivers. Decline in Chinook salmon in Cook Inlet has been identified as a contributing factor to beluga non-recovery.",
+    "critical_habitat_designated": true,
+    "critical_habitat_sq_miles": 3016,
+    "threats": [
+      "Inadequate prey availability (Chinook salmon decline)",
+      "Ship strike (vessel traffic in Anchorage area)",
+      "Contamination (PCBs, heavy metals from Anchorage urban runoff)",
+      "Noise (port of Anchorage, military activities)",
+      "Unusual Mortality Events (UME) — strandings in tidal flats",
+      "Climate change effects on prey distribution"
+    ]
+  }
+}

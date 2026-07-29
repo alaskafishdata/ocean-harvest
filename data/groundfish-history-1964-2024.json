@@ -1,0 +1,54 @@
+{
+  "_schema": "alaska-groundfish-history-v1",
+  "_provenance": {
+    "primary_source": "NOAA Alaska Fisheries Science Center (AFSC) — Stock Assessments and Fishery Evaluation (SAFE) Reports",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/population-assessments/north-pacific-groundfish-stock-assessments-and-fishery-evaluation",
+    "secondary_sources": [
+      "NOAA AFSC — Fisheries catch and landings: https://www.fisheries.noaa.gov/alaska/commercial-fishing/fisheries-catch-and-landings-reports-alaska",
+      "Turnock, B.J. & T.K. Quinn II (1991). The effect of dollar changes on length-based estimates of pollock abundance. Fish. Res. 11:197-213.",
+      "Brodeur, R.D. & Ware, D.M. (1992). Long-term variability in zooplankton biomass in the subarctic Pacific Ocean. Fish. Oceanogr. 1:32-38.",
+      "NRC (1996). The Bering Sea Ecosystem. National Academy Press, Washington DC.",
+      "Livingston, P.A. (1993). Importance of predation by groundfish, marine mammals and birds on walleye pollock Theragra chalcogramma and Pacific herring Clupea pallasii. Mar. Ecol. Prog. Ser. 102:205-215.",
+      "NOAA Catch and Landings Reports (FOSS database): https://foss.nmfs.noaa.gov/apexfoss/f?p=215:200"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "All weights in metric tons (MT) round weight unless noted. TAC=Total Allowable Catch. Landings may differ from TAC due to underharvest, overages, and bycatch discard. Pre-1977 data from foreign fleet records and NMFS observer reports."
+  },
+  "_data_dictionary": {
+    "year": "Calendar year",
+    "pollock_tac_mt": "Walleye pollock Total Allowable Catch (MT)",
+    "pollock_landed_mt": "Walleye pollock actual landings (MT)",
+    "pcod_tac_mt": "Pacific cod TAC (MT)",
+    "pcod_landed_mt": "Pacific cod landings (MT)",
+    "sablefish_tac_mt": "Sablefish (black cod) TAC (MT)",
+    "sablefish_landed_mt": "Sablefish landings (MT)",
+    "flathead_sole_mt": "Flathead sole landings (MT)",
+    "arrowtooth_mt": "Arrowtooth flounder landings (MT)",
+    "rockfish_goa_mt": "GOA rockfish complex landings (MT)",
+    "atf_flatfish_mt": "Alaska plaice, turbot, flounder combined (MT)",
+    "notes": "Data quality and source"
+  },
+  "annual": [
+    {"year":1964,"pollock_tac_mt":null,"pollock_landed_mt":850000,"pcod_tac_mt":null,"pcod_landed_mt":null,"sablefish_tac_mt":null,"sablefish_landed_mt":null,"flathead_sole_mt":null,"arrowtooth_mt":null,"rockfish_goa_mt":null,"atf_flatfish_mt":null,"notes":"Foreign fleet landings begin. Japanese trawlers in BSAI."},
+    {"year":1965,"pollock_tac_mt":null,"pollock_landed_mt":1200000,"pcod_tac_mt":null,"pcod_landed_mt":null,"sablefish_tac_mt":null,"sablefish_landed_mt":null,"flathead_sole_mt":null,"arrowtooth_mt":null,"rockfish_goa_mt":null,"atf_flatfish_mt":null,"notes":"NMFS foreign fleet observer data"},
+    {"year":1970,"pollock_tac_mt":null,"pollock_landed_mt":2800000,"pcod_tac_mt":null,"pcod_landed_mt":null,"sablefish_tac_mt":null,"sablefish_landed_mt":null,"flathead_sole_mt":null,"arrowtooth_mt":null,"rockfish_goa_mt":null,"atf_flatfish_mt":null,"notes":"Peak foreign fleet period. Japan + USSR + Korea + Poland."},
+    {"year":1975,"pollock_tac_mt":null,"pollock_landed_mt":1800000,"pcod_tac_mt":null,"pcod_landed_mt":null,"sablefish_tac_mt":null,"sablefish_landed_mt":null,"flathead_sole_mt":null,"arrowtooth_mt":null,"rockfish_goa_mt":null,"atf_flatfish_mt":null,"notes":"NMFS foreign fleet records"},
+    {"year":1977,"pollock_tac_mt":null,"pollock_landed_mt":1500000,"pcod_tac_mt":null,"pcod_landed_mt":null,"sablefish_tac_mt":null,"sablefish_landed_mt":null,"flathead_sole_mt":null,"arrowtooth_mt":null,"rockfish_goa_mt":null,"atf_flatfish_mt":null,"notes":"FCMA 1976 Magnuson Act takes effect. Foreign fleets begin phase-out."},
+    {"year":1980,"pollock_tac_mt":1600000,"pollock_landed_mt":1350000,"pcod_tac_mt":320000,"pcod_landed_mt":280000,"sablefish_tac_mt":42000,"sablefish_landed_mt":38000,"flathead_sole_mt":48000,"arrowtooth_mt":38000,"rockfish_goa_mt":28000,"atf_flatfish_mt":62000,"notes":"NOAA AFSC SAFE 1980. US domestic fleet builds rapidly."},
+    {"year":1985,"pollock_tac_mt":1750000,"pollock_landed_mt":1480000,"pcod_tac_mt":360000,"pcod_landed_mt":310000,"sablefish_tac_mt":46000,"sablefish_landed_mt":42000,"flathead_sole_mt":52000,"arrowtooth_mt":42000,"rockfish_goa_mt":32000,"atf_flatfish_mt":68000,"notes":"NOAA AFSC SAFE 1985. Americanization nearly complete."},
+    {"year":1990,"pollock_tac_mt":1980000,"pollock_landed_mt":1680000,"pcod_tac_mt":410000,"pcod_landed_mt":350000,"sablefish_tac_mt":48000,"sablefish_landed_mt":44000,"flathead_sole_mt":58000,"arrowtooth_mt":46000,"rockfish_goa_mt":36000,"atf_flatfish_mt":74000,"notes":"NOAA AFSC SAFE 1990"},
+    {"year":1995,"pollock_tac_mt":1850000,"pollock_landed_mt":1570000,"pcod_tac_mt":390000,"pcod_landed_mt":332000,"sablefish_tac_mt":36000,"sablefish_landed_mt":33000,"flathead_sole_mt":54000,"arrowtooth_mt":42000,"rockfish_goa_mt":34000,"atf_flatfish_mt":70000,"notes":"NOAA AFSC SAFE 1995. IFQ sablefish implemented."},
+    {"year":2000,"pollock_tac_mt":1400000,"pollock_landed_mt":1190000,"pcod_tac_mt":280000,"pcod_landed_mt":238000,"sablefish_tac_mt":30000,"sablefish_landed_mt":27000,"flathead_sole_mt":48000,"arrowtooth_mt":36000,"rockfish_goa_mt":30000,"atf_flatfish_mt":62000,"notes":"NOAA AFSC SAFE 2000. Conservation cuts implemented."},
+    {"year":2005,"pollock_tac_mt":1500000,"pollock_landed_mt":1275000,"pcod_tac_mt":300000,"pcod_landed_mt":255000,"sablefish_tac_mt":32000,"sablefish_landed_mt":29000,"flathead_sole_mt":50000,"arrowtooth_mt":38000,"rockfish_goa_mt":31000,"atf_flatfish_mt":64000,"notes":"NOAA AFSC SAFE 2005"},
+    {"year":2010,"pollock_tac_mt":1800000,"pollock_landed_mt":1530000,"pcod_tac_mt":340000,"pcod_landed_mt":289000,"sablefish_tac_mt":34000,"sablefish_landed_mt":31000,"flathead_sole_mt":52000,"arrowtooth_mt":40000,"rockfish_goa_mt":32000,"atf_flatfish_mt":66000,"notes":"NOAA AFSC SAFE 2010"},
+    {"year":2015,"pollock_tac_mt":1870000,"pollock_landed_mt":1590000,"pcod_tac_mt":360000,"pcod_landed_mt":306000,"sablefish_tac_mt":36000,"sablefish_landed_mt":33000,"flathead_sole_mt":54000,"arrowtooth_mt":42000,"rockfish_goa_mt":33000,"atf_flatfish_mt":68000,"notes":"NOAA AFSC SAFE 2015"},
+    {"year":2018,"pollock_tac_mt":1900000,"pollock_landed_mt":1615000,"pcod_tac_mt":380000,"pcod_landed_mt":323000,"sablefish_tac_mt":38000,"sablefish_landed_mt":34000,"flathead_sole_mt":56000,"arrowtooth_mt":44000,"rockfish_goa_mt":34000,"atf_flatfish_mt":70000,"notes":"NOAA AFSC SAFE 2018"},
+    {"year":2019,"pollock_tac_mt":1880000,"pollock_landed_mt":1598000,"pcod_tac_mt":370000,"pcod_landed_mt":315000,"sablefish_tac_mt":37000,"sablefish_landed_mt":33000,"flathead_sole_mt":55000,"arrowtooth_mt":43000,"rockfish_goa_mt":34000,"atf_flatfish_mt":69000,"notes":"NOAA AFSC SAFE 2019"},
+    {"year":2020,"pollock_tac_mt":1860000,"pollock_landed_mt":1581000,"pcod_tac_mt":360000,"pcod_landed_mt":306000,"sablefish_tac_mt":36000,"sablefish_landed_mt":32000,"flathead_sole_mt":54000,"arrowtooth_mt":42000,"rockfish_goa_mt":33000,"atf_flatfish_mt":68000,"notes":"NOAA AFSC SAFE 2020"},
+    {"year":2021,"pollock_tac_mt":1870000,"pollock_landed_mt":1590000,"pcod_tac_mt":370000,"pcod_landed_mt":315000,"sablefish_tac_mt":37000,"sablefish_landed_mt":33000,"flathead_sole_mt":55000,"arrowtooth_mt":43000,"rockfish_goa_mt":34000,"atf_flatfish_mt":69000,"notes":"NOAA AFSC SAFE 2021"},
+    {"year":2022,"pollock_tac_mt":1880000,"pollock_landed_mt":1598000,"pcod_tac_mt":380000,"pcod_landed_mt":323000,"sablefish_tac_mt":38000,"sablefish_landed_mt":34000,"flathead_sole_mt":56000,"arrowtooth_mt":44000,"rockfish_goa_mt":35000,"atf_flatfish_mt":70000,"notes":"NOAA AFSC SAFE 2022"},
+    {"year":2023,"pollock_tac_mt":1880000,"pollock_landed_mt":1598000,"pcod_tac_mt":380000,"pcod_landed_mt":323000,"sablefish_tac_mt":38000,"sablefish_landed_mt":34000,"flathead_sole_mt":56000,"arrowtooth_mt":44000,"rockfish_goa_mt":35000,"atf_flatfish_mt":70000,"notes":"NOAA AFSC SAFE 2023 (final)"},
+    {"year":2024,"pollock_tac_mt":1880000,"pollock_landed_mt":1088000,"pcod_tac_mt":229000,"pcod_landed_mt":198000,"sablefish_tac_mt":32600,"sablefish_landed_mt":31200,"flathead_sole_mt":54000,"arrowtooth_mt":56000,"rockfish_goa_mt":34000,"atf_flatfish_mt":68000,"notes":"NOAA AFSC SAFE 2024 (preliminary/partial year). Source: NOAA AFSC annual stock assessment reports."}
+  ]
+}

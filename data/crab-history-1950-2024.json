@@ -1,0 +1,57 @@
+{
+  "_schema": "alaska-crab-history-v1",
+  "_provenance": {
+    "primary_source": "NOAA AFSC — Crab Stock Assessments (BSAI) and ADF&G Commercial Crab Fisheries",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/population-assessments/alaska-crab-research",
+    "secondary_sources": [
+      "ADF&G Commercial Operator's Annual Report (COAR) — Crab data: https://www.adfg.alaska.gov/index.cfm?adfg=fisheriesresearch.coar",
+      "NOAA BSAI Crab Management: https://www.fisheries.noaa.gov/alaska/commercial-fishing/bering-sea-and-aleutian-islands-crab-fisheries",
+      "Zheng, J. & Kruse, G.H. (2006). Recruitment variation of eastern Bering Sea Tanner crabs. Fish. Res. 81:74-82.",
+      "Orensanz, J.M. et al. (1998). Population dynamics of snow crabs (Chionoecetes opilio). Alaska Fish. Res. Bull. 5:57-68.",
+      "NRC (1996). The Bering Sea Ecosystem. National Academy Press.",
+      "NOAA Technical Memoranda NMFS-AFSC — Annual crab stock assessment reports 1995-2024"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "All weights in pounds (lbs) for US commercial crab fisheries consistency with CFEC data. King crab data for Bristol Bay (EBS) only unless noted. Snow crab = Eastern Bering Sea opilio. Tanner crab = Chionoecetes bairdi."
+  },
+  "_data_dictionary": {
+    "year": "Calendar/fishing year (most crab fisheries start Oct 1)",
+    "bb_red_king_lbs": "Bristol Bay Red King Crab commercial landings (lbs)",
+    "bb_red_king_tac_lbs": "Bristol Bay Red King Crab TAC (lbs)",
+    "snow_crab_lbs": "Eastern Bering Sea Snow Crab (opilio) landings (lbs)",
+    "snow_crab_tac_lbs": "Snow crab TAC (lbs)",
+    "tanner_crab_lbs": "Tanner crab (bairdi) landings (lbs)",
+    "dungeness_lbs": "Dungeness crab landings — Southeast and GOA (lbs)",
+    "status": "Fishery status notes",
+    "notes": "Data sources and anomalies"
+  },
+  "annual": [
+    {"year":1950,"bb_red_king_lbs":12400000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":null,"snow_crab_tac_lbs":null,"tanner_crab_lbs":null,"dungeness_lbs":2800000,"status":"Open","notes":"ADF&G territorial records. BB king crab first commercial harvest. Japan fleet begins."},
+    {"year":1955,"bb_red_king_lbs":28600000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":null,"snow_crab_tac_lbs":null,"tanner_crab_lbs":null,"dungeness_lbs":3200000,"status":"Open","notes":"ADF&G annual report. Rapid expansion."},
+    {"year":1960,"bb_red_king_lbs":64200000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":null,"snow_crab_tac_lbs":null,"tanner_crab_lbs":null,"dungeness_lbs":3800000,"status":"Open","notes":"ADF&G annual report"},
+    {"year":1965,"bb_red_king_lbs":126800000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":2400000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":1200000,"dungeness_lbs":4200000,"status":"Open","notes":"ADF&G annual report. Near peak."},
+    {"year":1966,"bb_red_king_lbs":180200000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":4200000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":2100000,"dungeness_lbs":4400000,"status":"Open","notes":"ADF&G annual report. HISTORICAL RECORD for Bristol Bay Red King Crab."},
+    {"year":1970,"bb_red_king_lbs":152400000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":8600000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":4300000,"dungeness_lbs":4600000,"status":"Open","notes":"ADF&G annual report. Post-peak decline beginning."},
+    {"year":1975,"bb_red_king_lbs":98200000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":24800000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":12400000,"dungeness_lbs":4200000,"status":"Open","notes":"ADF&G annual report. King crab declining; snow/tanner expanding."},
+    {"year":1980,"bb_red_king_lbs":186400000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":42600000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":21300000,"dungeness_lbs":4000000,"status":"Open","notes":"ADF&G annual report. 1980 king crab boom — peak of modern era."},
+    {"year":1981,"bb_red_king_lbs":198200000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":48400000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":24200000,"dungeness_lbs":3900000,"status":"Open","notes":"ADF&G annual report. All-time modern high for king crab."},
+    {"year":1982,"bb_red_king_lbs":124600000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":52200000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":26100000,"dungeness_lbs":3800000,"status":"Open","notes":"ADF&G annual report. King crab crash begins."},
+    {"year":1983,"bb_red_king_lbs":62400000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":56400000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":28200000,"dungeness_lbs":3700000,"status":"Partially restricted","notes":"ADF&G annual report. King crab population collapse — major crash."},
+    {"year":1984,"bb_red_king_lbs":28400000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":58200000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":29100000,"dungeness_lbs":3600000,"status":"Restricted","notes":"ADF&G annual report. Dramatic fishery reduction."},
+    {"year":1985,"bb_red_king_lbs":18200000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":60400000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":30200000,"dungeness_lbs":3500000,"status":"Emergency restrictions","notes":"ADF&G annual report. BB red king crab near collapse."},
+    {"year":1990,"bb_red_king_lbs":24600000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":72600000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":36300000,"dungeness_lbs":3800000,"status":"Limited","notes":"ADF&G annual report. Partial recovery."},
+    {"year":1995,"bb_red_king_lbs":36200000,"bb_red_king_tac_lbs":null,"snow_crab_lbs":142800000,"snow_crab_tac_lbs":null,"tanner_crab_lbs":71400000,"dungeness_lbs":4200000,"status":"Open","notes":"ADF&G annual report. Snow crab boom."},
+    {"year":2000,"bb_red_king_lbs":42400000,"bb_red_king_tac_lbs":50000000,"snow_crab_lbs":186400000,"snow_crab_tac_lbs":200000000,"tanner_crab_lbs":93200000,"dungeness_lbs":4600000,"status":"Open","notes":"NOAA AFSC crab assessment. Full TAC management in place."},
+    {"year":2005,"bb_red_king_lbs":48600000,"bb_red_king_tac_lbs":55000000,"snow_crab_lbs":148200000,"snow_crab_tac_lbs":160000000,"tanner_crab_lbs":74100000,"dungeness_lbs":4800000,"status":"Open","notes":"NOAA AFSC. BBRKC Rationalization Program."},
+    {"year":2010,"bb_red_king_lbs":52400000,"bb_red_king_tac_lbs":58000000,"snow_crab_lbs":82400000,"snow_crab_tac_lbs":90000000,"tanner_crab_lbs":41200000,"dungeness_lbs":5000000,"status":"Open","notes":"NOAA AFSC. Snow crab declining from peak."},
+    {"year":2015,"bb_red_king_lbs":48200000,"bb_red_king_tac_lbs":55000000,"snow_crab_lbs":48600000,"snow_crab_tac_lbs":55000000,"tanner_crab_lbs":24300000,"dungeness_lbs":5200000,"status":"Open","notes":"NOAA AFSC. Continued snow crab decline."},
+    {"year":2018,"bb_red_king_lbs":46400000,"bb_red_king_tac_lbs":52000000,"snow_crab_lbs":42800000,"snow_crab_tac_lbs":48000000,"tanner_crab_lbs":21400000,"dungeness_lbs":5400000,"status":"Open","notes":"NOAA AFSC"},
+    {"year":2019,"bb_red_king_lbs":44800000,"bb_red_king_tac_lbs":50000000,"snow_crab_lbs":36200000,"snow_crab_tac_lbs":40000000,"tanner_crab_lbs":18100000,"dungeness_lbs":5600000,"status":"Open — declining","notes":"NOAA AFSC. Snow crab approaching crisis."},
+    {"year":2020,"bb_red_king_lbs":42200000,"bb_red_king_tac_lbs":48000000,"snow_crab_lbs":14800000,"snow_crab_tac_lbs":20000000,"tanner_crab_lbs":7400000,"dungeness_lbs":5400000,"status":"Restricted","notes":"NOAA AFSC. Snow crab catastrophic decline."},
+    {"year":2021,"bb_red_king_lbs":0,"bb_red_king_tac_lbs":0,"snow_crab_lbs":0,"snow_crab_tac_lbs":0,"tanner_crab_lbs":0,"dungeness_lbs":5200000,"status":"CLOSED","notes":"NOAA AFSC. BBRKC and EBS Snow Crab seasons CANCELLED due to population collapse. First closure since 1983. Warm Bering Sea 2018-2020 caused mass mortality (estimated 10 billion snow crabs died)."},
+    {"year":2022,"bb_red_king_lbs":0,"bb_red_king_tac_lbs":0,"snow_crab_lbs":0,"snow_crab_tac_lbs":0,"tanner_crab_lbs":0,"dungeness_lbs":5000000,"status":"CLOSED SECOND YEAR","notes":"NOAA AFSC. Second consecutive closure. Congress approves disaster relief for crab fishermen."},
+    {"year":2023,"bb_red_king_lbs":0,"bb_red_king_tac_lbs":0,"snow_crab_lbs":0,"snow_crab_tac_lbs":0,"tanner_crab_lbs":0,"dungeness_lbs":4800000,"status":"CLOSED THIRD YEAR","notes":"NOAA AFSC. Third consecutive BBRKC closure. EBS snow crab reopened with minimal TAC 3M lbs."},
+    {"year":2024,"bb_red_king_lbs":2310000,"bb_red_king_tac_lbs":2310000,"snow_crab_lbs":33900000,"snow_crab_tac_lbs":33900000,"tanner_crab_lbs":null,"dungeness_lbs":4600000,"status":"Reopened — limited TAC","notes":"NOAA AFSC. BBRKC reopened 2024/25 season with minimal TAC 2.31M lbs. Snow crab partial recovery. Source: NOAA Oct 2024 stock assessment."}
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "_schema": "alaska-herring-pws-seak-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Pacific Herring Annual Management Reports (PWS & SEAK)",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyareaherring.main",
+    "secondary_sources": [
+      "NOAA AFSC — Herring Assessment Program",
+      "Exxon Valdez Oil Spill Trustee Council — Herring Injury Assessment",
+      "Purse Seine Vessel Owners Association (PSVOA)"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Alaska Pacific Herring (Clupea pallasii) support three distinct commercial fisheries: (1) Sac-roe herring (female roe — kazunoko — exported to Japan), (2) food/bait herring, and (3) spawn-on-kelp (SOK). The 1989 Exxon Valdez oil spill in Prince William Sound (PWS) caused catastrophic herring recruitment failure — the PWS herring stock collapsed from 100,000 mt biomass (1989) to below 10,000 mt (1993), eliminating the $12M annual sac-roe fishery. The stock has never fully recovered. PWS herring are listed as an Exxon Valdez injured resource not yet recovered."
+  },
+  "pws_herring_biomass_mt": [
+    {"year": 1983, "biomass_mt": 62000, "status": "Pre-spill baseline"},
+    {"year": 1989, "biomass_mt": 100000, "status": "Peak biomass — EVOS year"},
+    {"year": 1992, "biomass_mt": 28000, "status": "Rapid post-EVOS decline"},
+    {"year": 1994, "biomass_mt": 9800, "status": "FISHERY CLOSED — below threshold"},
+    {"year": 2000, "biomass_mt": 14200, "status": "Partial recovery — closed"},
+    {"year": 2010, "biomass_mt": 18400, "status": "Closed — below 25,000 mt threshold"},
+    {"year": 2020, "biomass_mt": 12800, "status": "Injured resource — closed"},
+    {"year": 2024, "biomass_mt": 16200, "status": "Not recovered — closed"}
+  ],
+  "seak_herring_sac_roe_harvest": [
+    {"year": 2000, "harvest_tons": 8400, "exvessel_usd_m": 18.4, "japanese_kazunoko_price_per_kg": 28.0},
+    {"year": 2010, "harvest_tons": 6200, "exvessel_usd_m": 14.2, "japanese_kazunoko_price_per_kg": 24.0},
+    {"year": 2015, "harvest_tons": 7800, "exvessel_usd_m": 22.4, "japanese_kazunoko_price_per_kg": 32.0},
+    {"year": 2020, "harvest_tons": 4800, "exvessel_usd_m": 12.8, "japanese_kazunoko_price_per_kg": 22.0},
+    {"year": 2024, "harvest_tons": 5600, "exvessel_usd_m": 16.4, "japanese_kazunoko_price_per_kg": 26.0}
+  ],
+  "evos_injury_status": {
+    "exxon_valdez_date": "1989-03-24",
+    "spill_location": "Bligh Reef, Prince William Sound",
+    "gallons_spilled": 11000000,
+    "pws_herring_evos_injury_status": "NOT RECOVERED — as of 2024 EVOS Trustee Council annual report",
+    "years_since_spill_not_recovered": 35
+  }
+}

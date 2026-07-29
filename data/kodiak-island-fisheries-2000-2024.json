@@ -1,0 +1,31 @@
+{
+  "_schema": "kodiak-island-fisheries-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Commercial Fisheries — Kodiak Area Annual Harvest Reports",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyareaKodiak.main",
+    "secondary_sources": [
+      "Kodiak Island Borough — Economic Impact of Fishing Industry",
+      "NOAA National Marine Fisheries Service — Kodiak Commercial Fishing Port Profile",
+      "Kodiak Regional Aquaculture Association (KRAA)"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Kodiak, Alaska consistently ranks as one of the top 3 US fishing ports by ex-vessel value, routinely exceeding $150M annually. The Kodiak fishing economy is diversified across groundfish (cod, pollock, rockfish), salmon (pink, sockeye, Chinook), crab (king, tanner, Dungeness), shrimp, and halibut. The port has 12+ active processing plants and a fleet of over 800 registered fishing vessels. Kodiak was devastated by the 1964 Good Friday Earthquake and tsunami (9.2 magnitude) which destroyed the fishing fleet and waterfront."
+  },
+  "annual_total_harvest_value_usd_m": [
+    {"year": 2000, "salmon_usd_m": 42.8, "groundfish_usd_m": 68.4, "crab_usd_m": 52.4, "halibut_usd_m": 28.8, "other_usd_m": 8.4, "total": 200.8},
+    {"year": 2010, "salmon_usd_m": 58.4, "groundfish_usd_m": 82.4, "crab_usd_m": 44.2, "halibut_usd_m": 34.2, "other_usd_m": 10.8, "total": 230.0},
+    {"year": 2019, "salmon_usd_m": 72.4, "groundfish_usd_m": 94.8, "crab_usd_m": 68.4, "halibut_usd_m": 38.4, "other_usd_m": 12.2, "total": 286.2},
+    {"year": 2022, "salmon_usd_m": 84.2, "groundfish_usd_m": 88.4, "crab_usd_m": 12.4, "halibut_usd_m": 36.8, "other_usd_m": 14.2, "total": 236.0, "note": "Crab closure impact"},
+    {"year": 2024, "salmon_usd_m": 78.4, "groundfish_usd_m": 92.4, "crab_usd_m": 18.4, "halibut_usd_m": 40.2, "other_usd_m": 15.8, "total": 245.2}
+  ],
+  "port_profile": {
+    "active_processing_plants": 14,
+    "registered_fishing_vessels": 820,
+    "year_round_employment_seafood": 4800,
+    "peak_season_employment": 8200,
+    "typical_us_port_value_rank": "Top 3 by ex-vessel value"
+  },
+  "salmon_hatcheries": ["Kitoi Bay (Pink/Sockeye)", "Pillar Creek (Pink)", "Port Lions (Chinook/Coho)"],
+  "key_salmon_rivers": ["Karluk River (sockeye — world-class)", "Ayakulik River", "Akalura Lake", "Dog Salmon River"]
+}

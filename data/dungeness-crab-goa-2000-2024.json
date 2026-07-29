@@ -1,0 +1,33 @@
+{
+  "_schema": "alaska-dungeness-crab-goa-v1",
+  "_provenance": {
+    "primary_source": "ADF&G Division of Commercial Fisheries — Shellfish Annual Reports (Dungeness Crab)",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=commercialbyareaGOA.dungeness",
+    "secondary_sources": [
+      "NPFMC — Pacific Coast Groundfish & Shellfish Observer Program",
+      "Alaska Dungeness Crab Marketing Association (ADCMA)"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Dungeness crab (Metacarcinus magister) is Alaska's third-most valuable crab fishery after king and snow crab. Primary fishing areas include Southeast Alaska (Craig, Ketchikan, Sitka), Prince William Sound, Cook Inlet, and Kodiak. Unlike BSAI crab, Dungeness are managed by ADF&G under state regulations rather than NPFMC federal plan. They are highly sensitive to ocean acidification through pteropod dissolution affecting larval food web, and are increasingly used as a climate indicator species."
+  },
+  "annual_harvest_and_value": [
+    {"year": 2000, "harvest_lbs_m": 8.4,  "exvessel_value_usd_m": 12.8, "avg_price_per_lb": 1.52},
+    {"year": 2005, "harvest_lbs_m": 11.2, "exvessel_value_usd_m": 18.4, "avg_price_per_lb": 1.64},
+    {"year": 2010, "harvest_lbs_m": 14.8, "exvessel_value_usd_m": 28.2, "avg_price_per_lb": 1.91},
+    {"year": 2015, "harvest_lbs_m": 18.4, "exvessel_value_usd_m": 42.8, "avg_price_per_lb": 2.33},
+    {"year": 2020, "harvest_lbs_m": 22.1, "exvessel_value_usd_m": 68.4, "avg_price_per_lb": 3.10},
+    {"year": 2024, "harvest_lbs_m": 26.8, "exvessel_value_usd_m": 92.6, "avg_price_per_lb": 3.46}
+  ],
+  "primary_fishing_areas": [
+    {"area": "Southeast Alaska (SEAK)", "primary_ports": ["Ketchikan", "Craig", "Sitka", "Juneau"], "pct_of_state_harvest": 62},
+    {"area": "Prince William Sound", "primary_ports": ["Cordova", "Valdez"], "pct_of_state_harvest": 18},
+    {"area": "Cook Inlet / Kodiak", "primary_ports": ["Homer", "Kodiak"], "pct_of_state_harvest": 14},
+    {"area": "Other GOA Districts", "primary_ports": ["Seward", "Yakutat"], "pct_of_state_harvest": 6}
+  ],
+  "climate_concern": {
+    "pteropod_dissolution_impact": "Ocean acidification dissolving pteropod shells — key larval Dungeness prey item",
+    "monitoring_program": "NOAA OA Buoy Array — GOA coastal pH monitoring",
+    "forecast_risk": "HIGH — Dungeness larvae among most vulnerable OA indicator species in North Pacific"
+  }
+}

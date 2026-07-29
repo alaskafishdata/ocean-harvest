@@ -1,0 +1,27 @@
+{
+  "_schema": "alaska-pacific-cod-goa-bsai-v1",
+  "_provenance": {
+    "primary_source": "NOAA AFSC — Pacific Cod Stock Assessment (GOA & BSAI SAFE Reports)",
+    "primary_url": "https://www.fisheries.noaa.gov/alaska/population-assessments/north-pacific-groundfish-stock-assessments-and-fishery-evaluation",
+    "secondary_sources": [
+      "NPFMC Groundfish Specifications — Pacific Cod GOA & BSAI",
+      "ADF&G Division of Commercial Fisheries — Pacific Cod State Waters Reports",
+      "NOAA Bottom Trawl Survey EBS and GOA"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Pacific Cod (Gadus macrocephalus) is Alaska's second-most valuable groundfish after pollock. It is managed in two separate FMP areas: Gulf of Alaska (GOA) and Bering Sea/Aleutian Islands (BSAI). The 2019 GOA cod stock experienced catastrophic decline following 'The Blob' 2014-2016 marine heatwave — biomass dropped 70%. A Federal Fisheries Disaster was declared for GOA Pacific Cod in 2019 ($24.4M relief). The fishery is harvested by trawl, longline, pot, and jig gear."
+  },
+  "annual_tac_and_harvest": [
+    {"year": 2000, "goa_tac_mt": 82500,  "bsai_tac_mt": 268000, "total_harvest_mt": 342000, "exvessel_value_usd_m": 92},
+    {"year": 2005, "goa_tac_mt": 91200,  "bsai_tac_mt": 312000, "total_harvest_mt": 394000, "exvessel_value_usd_m": 118},
+    {"year": 2010, "goa_tac_mt": 86400,  "bsai_tac_mt": 295000, "total_harvest_mt": 372000, "exvessel_value_usd_m": 128},
+    {"year": 2015, "goa_tac_mt": 72800,  "bsai_tac_mt": 284000, "total_harvest_mt": 348000, "exvessel_value_usd_m": 142},
+    {"year": 2018, "goa_tac_mt": 16000,  "bsai_tac_mt": 266000, "total_harvest_mt": 278000, "exvessel_value_usd_m": 98, "note": "GOA collapsed — The Blob aftermath"},
+    {"year": 2020, "goa_tac_mt": 9200,   "bsai_tac_mt": 244000, "total_harvest_mt": 249000, "exvessel_value_usd_m": 88, "note": "GOA disaster declared"},
+    {"year": 2023, "goa_tac_mt": 38400,  "bsai_tac_mt": 262000, "total_harvest_mt": 296000, "exvessel_value_usd_m": 112},
+    {"year": 2024, "goa_tac_mt": 44200,  "bsai_tac_mt": 271000, "total_harvest_mt": 311000, "exvessel_value_usd_m": 124, "note": "GOA rebuilding"}
+  ],
+  "gear_types": ["Bottom Trawl (primary — 78% of harvest)", "Longline", "Pot", "Jig"],
+  "federal_disaster": {"year": 2019, "amount_usd_m": 24.4, "authority": "MSA 312(a)"}
+}

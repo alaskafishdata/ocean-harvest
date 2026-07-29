@@ -1,0 +1,26 @@
+{
+  "_schema": "alaska-tanner-crab-bsai-goa-v1",
+  "_provenance": {
+    "primary_source": "NOAA Fisheries AFSC — Bering Sea & Aleutian Islands Tanner Crab SAFE Report & ADF&G Shellfish",
+    "primary_url": "https://www.fisheries.noaa.gov/resource/data/bering-sea-and-aleutian-islands-tanner-crab-stock-assessment",
+    "secondary_sources": [
+      "NPFMC — BSAI Crab Plan Team Reports",
+      "ADF&G — Commercial Shellfish Management Reports for Westward Region"
+    ],
+    "compiled_by": "alaskafishdata/ocean-harvest",
+    "compiled_date": "2026-07-29",
+    "notes": "Tanner Crab (Chionoecetes bairdi) is a major commercial crab species in the Bering Sea, Gulf of Alaska, and Prince William Sound. Larger than Snow Crab (opilio), Tanner crab fisheries have experienced cyclical booms and collapses. The fishery is managed under minimum male carapace width limits (5.5 inches in GOA, 4.8 inches in EBS)."
+  },
+  "fishery_districts": ["Bering Sea Eastern District", "Bering Sea Western District", "Kodiak District", "Chignik District", "South Peninsula District"],
+  "annual_landings_lbs_millions": [
+    {"year": 1970, "commercial_harvest_lbs_m": 14.5, "exvessel_price_lb": 0.12},
+    {"year": 1978, "commercial_harvest_lbs_m": 68.4, "exvessel_price_lb": 0.42, "notes": "All-time peak harvest"},
+    {"year": 1985, "commercial_harvest_lbs_m": 28.2, "exvessel_price_lb": 1.15},
+    {"year": 1993, "commercial_harvest_lbs_m": 39.8, "exvessel_price_lb": 1.85},
+    {"year": 1997, "commercial_harvest_lbs_m": 0.0, "exvessel_price_lb": 0.00, "notes": "CLOSED — Stock collapse"},
+    {"year": 2008, "commercial_harvest_lbs_m": 4.2, "exvessel_price_lb": 2.25, "notes": "Reopened post-rationalization"},
+    {"year": 2015, "commercial_harvest_lbs_m": 17.4, "exvessel_price_lb": 2.75},
+    {"year": 2022, "commercial_harvest_lbs_m": 2.1, "exvessel_price_lb": 4.80, "notes": "Open while snow crab closed"},
+    {"year": 2024, "commercial_harvest_lbs_m": 3.8, "exvessel_price_lb": 4.20}
+  ]
+}
